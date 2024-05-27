@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Pending_Actions_for_My_Complaints</fullName>
+    <columns>NAME</columns>
+    <columns>OLY_Action_ID__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>OLY_Action_Not_Completed__c</field>
+        <operation>equals</operation>
+        <value>0</value>
+    </filters>
+    <filters>
+        <field>OLY_Complaint__c</field>
+        <operation>notEqual</operation>
+    </filters>
+    <filters>
+        <field>OLY_Assigned_to_Me__c</field>
+        <operation>equals</operation>
+        <value>1</value>
+    </filters>
+    <filters>
+        <field>CMPL123_WF_Status__c</field>
+        <operation>equals</operation>
+        <value>Open,Action in Progress</value>
+    </filters>
+    <label>Pending Actions for My Complaints</label>
+</ListView>

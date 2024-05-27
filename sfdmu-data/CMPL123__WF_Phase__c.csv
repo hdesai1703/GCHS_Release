@@ -1,0 +1,12 @@
+CMPL123__Description__c,CMPL123__Phase_Custom_Label__c,CMPL123__WF_Phase_External_Id__c,CMPL123__Work_Instructions__c,CMPL123__Work_Instructions_Custom_Label__c,CMPL123__Work_Instructions_HTML__c,Id,Name
+Complaint Workflow,TWD_PHASE_APPROVAL,qpa-complaints-phase-001,,TWD_WI_APPROVAL_COMPLAINT_WF,,a1G7E000002PhWTUA0,Approval
+Complaint Workflow; Inquiry Workflow,TWD_PHASE_CLOSURE,qpa-complaints-phase-002,,TWD_WI_CLOSURE_COMPLAINT_WF,,a1G7E000002PhWUUA0,Closure
+Regulatory Report Workflow; CVR Workflow; TGA Workflow; Meddev Workflow,TWD_PHASE_CLOSURE,qpa-complaints-phase-003,,TWD_WI_CLOSURE_CVR_WF,,a1G7E000002PhWVUA0,Closure
+Complaint Workflow,TWD_PHASE_IN_EVALUATION,qpa-complaints-phase-004,,TWD_WI_IN_EVALUATION_COMPLAINT_WF,,a1G7E000002PhWWUA0,In Evaluation
+Regulatory Report Workflow; CVR Workflow; TGA Workflow; Meddev Workflow,TWD_PHASE_IN_REVIEW,qpa-complaints-phase-005,,TWD_WI_IN_REVIEW_CVR_WF,,a1G7E000002PhWXUA0,In Review
+Complaint Workflow,TWD_PHASE_INITIATION,qpa-complaints-phase-007,,TWD_WI_INITIATION_COMPLAINT_WF,,a1G7E000002PhWZUA0,Initiation
+Regulatory Report Workflow; CVR Workflow,TWD_PHASE_INITIATION,qpa-complaints-phase-010,,TWD_WI_INITIATION_CVR_WF,,a1G7E000002PhWcUAK,Initiation
+Investigation Workflow,TWD_PHASE_CLOSURE,qpa-investigation-phase-001,,TWD_WI_CLOSURE_INVESTIGATION_WF,,a1G7E000002PhWjUAK,Closure
+Investigation Workflow,TWD_PHASE_INITIATION,qpa-investigation-phase-002,,TWD_WI_INITIATION_INVESTIGATION_WF,,a1G7E000002PhWkUAK,Initiation
+Investigation Workflow,TWD_PHASE_INVESTIGATION_IN_PROGRESS,qpa-investigation-phase-003,,TWD_WI_INVESTIGATION_IN_PROGRESS_INVESTIGATION_WF,,a1G7E000002PhWlUAK,Investigation In Progress
+Investigation Workflow,TWD_PHASE_APPROVAL,a1G5r000001oaZ5EAI,,TWD_OLY_WI_APPROVAL_INV_WF,,a1G7E000002PhXBUA0,Approval

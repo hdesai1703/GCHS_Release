@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Action</fullName>
+    <active>true</active>
+    <label>Action</label>
+    <picklistValues>
+        <picklist>CMPL123QMS__Department__c</picklist>
+        <values>
+            <fullName>Calibration</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Engineering</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Facilities</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Human Resources</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>IT</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Labeling</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Laboratory</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Manufacturing</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Marketing</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Product Management</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Quality Assurance</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Quality Control</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>R%26D</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Regulatory Affairs</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>OLY_Regulatory_Review_Action__c</picklist>
+        <values>
+            <fullName>Change in Reporting Decision and%2For Type</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>New%2FAdditional Information Provided</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>No Change in Reporting Decision and%2For Type</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Reviewed %26 No Further Action is Needed</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>OLY_Type__c</picklist>
+        <values>
+            <fullName>CAPA%2FRisk Assessment Request</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Customer Response</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DHR Review Request</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Decision Tree Request</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Documentation%2FLabeling Review</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>General Action</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Information Request</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Investigation Request</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Medical Safety Assessment</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Product Return</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Regulatory Agency Request</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Service History Reports</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Source System Update</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Supplier Request</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Training</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>URGENT %3A Reportability Review %E2%80%93 Investigation Completed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>URGENT %3A Reportability Review %E2%80%93 New Information Available</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Warranty %28Commercial Decision%29</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>TWD_Department__c</picklist>
+        <values>
+            <fullName>Calibration</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Engineering</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Facilities</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Human Resources</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>IT</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Labeling</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Laboratory</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Manufacturing</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Marketing</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Product Management</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Quality Assurance</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Quality Control</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>R%26D</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Regulatory Affairs</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>OLY_Product__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(not(isblank(OLY_Investigation__c)),  HYPERLINK (&quot;/&quot; &amp;  OLY_Investigation__r.TWD_Complaint__r.CMPL123CME__Product__c, OLY_Investigation__r.TWD_Complaint__r.CMPL123CME__Product__r.Name , &quot;_blank&quot;),
+IF(not(isblank(OLY_Complaint__c)), HYPERLINK (&quot;/&quot; &amp;  OLY_Complaint__r.CMPL123CME__Product__c , OLY_Complaint__r.CMPL123CME__Product__r.Name,&quot;_blank&quot;),&quot;&quot;))</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Product</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

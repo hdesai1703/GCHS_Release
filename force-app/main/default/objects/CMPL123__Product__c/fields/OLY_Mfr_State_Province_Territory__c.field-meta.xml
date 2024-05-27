@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>OLY_Mfr_State_Province_Territory__c</fullName>
+    <externalId>false</externalId>
+    <formula>HYPERLINK(&quot;/&quot; &amp; OLY_Manufacturer_Site__r.OLY_State_Province_Territory__c, OLY_Manufacturer_Site__r.OLY_State_Province_Territory__r.CMPL123CME__Name__c)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Manufacturer State/Province/Territory</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

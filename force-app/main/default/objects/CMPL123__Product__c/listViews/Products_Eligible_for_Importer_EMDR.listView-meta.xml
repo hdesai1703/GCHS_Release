@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Products_Eligible_for_Importer_EMDR</fullName>
+    <columns>NAME</columns>
+    <columns>CMPL123__Product_Description__c</columns>
+    <columns>OLY_Item_Code__c</columns>
+    <columns>OLY_Product_Coding_Group__c</columns>
+    <columns>OLY_Model_Number__c</columns>
+    <columns>OLY_Device_Type__c</columns>
+    <columns>CMPL123__Product_Family__c</columns>
+    <columns>OLY_Manufacturer_Site__c</columns>
+    <columns>OLY_Importer_Site__c</columns>
+    <columns>OLY_Countries_Sold_In__c</columns>
+    <columns>OLY_Is_Olympus_the_Manufacturer__c</columns>
+    <columns>OLY_Obligated_to_Report_to_USA__c</columns>
+    <columns>OLY_Is_Similar_Device_Sold__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>OLY_Mfr_Country_Code__c</field>
+        <operation>notEqual</operation>
+        <value>USA</value>
+    </filters>
+    <filters>
+        <field>OLY_Manufacturer_Site__c</field>
+        <operation>notEqual</operation>
+    </filters>
+    <label>Products Eligible for Importer EMDR</label>
+    <sharedTo>
+        <group>SR_US</group>
+    </sharedTo>
+</ListView>

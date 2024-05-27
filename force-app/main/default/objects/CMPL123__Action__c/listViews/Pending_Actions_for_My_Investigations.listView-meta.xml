@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Pending_Actions_for_My_Investigations</fullName>
+    <columns>OLY_Regional_Investigation_Center__c</columns>
+    <columns>OLY_Investigation__c</columns>
+    <columns>OLY_Action_ID__c</columns>
+    <columns>OBJECT_ID</columns>
+    <columns>OLY_Assigned_To__c</columns>
+    <columns>OLY_Type__c</columns>
+    <columns>CMPL123_WF_Status__c</columns>
+    <columns>OLY_Product_Model__c</columns>
+    <columns>OLY_Manufacturing_Site__c</columns>
+    <columns>CMPL123__Due_Date__c</columns>
+    <columns>OLY_Is_Overdue__c</columns>
+    <columns>OLY_Patient_Impacted__c</columns>
+    <columns>OLY_Product_Received_Date__c</columns>
+    <columns>OLY_Is_Olympus_the_Manufacturing_Site__c</columns>
+    <columns>OLY_Labeled_for_Single_Use__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>OLY_Investigation__c</field>
+        <operation>notEqual</operation>
+    </filters>
+    <filters>
+        <field>CMPL123_WF_Status__c</field>
+        <operation>equals</operation>
+        <value>Open,Action in Progress</value>
+    </filters>
+    <filters>
+        <field>OLY_Investigation_Assigned_to_Me__c</field>
+        <operation>equals</operation>
+        <value>1</value>
+    </filters>
+    <label>Pending Actions for My Investigations</label>
+</ListView>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CMPL123__Type__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Type of product, e.g. Drug or Device.</description>
+    <externalId>false</externalId>
+    <label>Type</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Implantable</fullName>
+                <default>false</default>
+                <label>Implantable</label>
+            </value>
+            <value>
+                <fullName>Active device</fullName>
+                <default>false</default>
+                <label>Active device</label>
+            </value>
+            <value>
+                <fullName>Intended to administer and/or remove a medicinal product</fullName>
+                <default>false</default>
+                <label>Intended to administer and/or remove a medicinal product</label>
+            </value>
+            <value>
+                <fullName>Sterile conditions</fullName>
+                <default>false</default>
+                <label>Sterile conditions</label>
+            </value>
+            <value>
+                <fullName>Measuring function</fullName>
+                <default>false</default>
+                <label>Measuring function</label>
+            </value>
+            <value>
+                <fullName>Reusable surgical instruments</fullName>
+                <default>false</default>
+                <label>Reusable surgical instruments</label>
+            </value>
+            <value>
+                <fullName>Software</fullName>
+                <default>false</default>
+                <label>Software</label>
+            </value>
+            <value>
+                <fullName>Systems</fullName>
+                <default>false</default>
+                <label>Systems</label>
+            </value>
+            <value>
+                <fullName>Procedure packs</fullName>
+                <default>false</default>
+                <label>Procedure packs</label>
+            </value>
+            <value>
+                <fullName>Custom-made</fullName>
+                <default>false</default>
+                <label>Custom-made</label>
+            </value>
+            <value>
+                <fullName>Non-medical purpose</fullName>
+                <default>false</default>
+                <label>Non-medical purpose</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

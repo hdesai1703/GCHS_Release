@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>My_Actions_for_Inquiries</fullName>
+    <columns>OLY_Regional_Complaint_Handling_Center__c</columns>
+    <columns>OLY_Complaint__c</columns>
+    <columns>OLY_Action_ID__c</columns>
+    <columns>OLY_Manufacturing_Site__c</columns>
+    <columns>OLY_Patient_Impacted__c</columns>
+    <columns>NAME</columns>
+    <columns>CMPL123__Due_Date__c</columns>
+    <columns>OLY_Assigned_To__c</columns>
+    <columns>OLY_Type__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>OLY_Assigned_to_Me__c</field>
+        <operation>equals</operation>
+        <value>1</value>
+    </filters>
+    <filters>
+        <field>CMPL123_WF_Status__c</field>
+        <operation>equals</operation>
+        <value>Open,Action in Progress</value>
+    </filters>
+    <filters>
+        <field>OLY_Inquiry__c</field>
+        <operation>notEqual</operation>
+    </filters>
+    <label>My Actions for Inquiries</label>
+</ListView>

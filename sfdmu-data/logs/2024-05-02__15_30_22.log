@@ -1,0 +1,34 @@
+
+ [15:30:22.531] Execution of the command sfdmu:run has been started.
+ [15:30:22.564] newLine
+ LOADING AND VALIDATING THE EXPORT.JSON SCRIPT ...
+ [15:30:22.592] newLine
+ OBJECT SET #1 STARTED
+ [15:30:22.598] newLine
+ {
+   "Running Plugin version": "4.33.17"
+}
+ {
+   "Running Add-On API version": "1.5.0"
+}
+ [15:30:22.629] newLine
+ [15:30:22.633] Loading Core Add-On Module declarations ...
+ [15:30:23.145] Connecting to the olympus-qa using SFDX sf org display ...
+
+ [15:30:30.184] [ERROR] Execution of the command has aborted due to unexpected error: Command failed: sf org display --json --target-org olympus-qa
+ »   Warning: @salesforce/cli update available from 2.36.8 to 2.38.7.
+.
+ [15:30:30.196] [ERROR] [STACK TRACE] Error: Command failed: sf org display --json --target-org olympus-qa
+ »   Warning: @salesforce/cli update available from 2.36.8 to 2.38.7.
+
+    at checkExecSyncError (node:child_process:890:11)
+    at execSync (node:child_process:962:15)
+    at Common.execSf (C:\Users\Himanshu.Desai\AppData\Local\sf\node_modules\sfdmu\lib\modules\components\common_components\common.js:210:49)
+    at ScriptOrg._setupConnection (C:\Users\Himanshu.Desai\AppData\Local\sf\node_modules\sfdmu\lib\modules\models\script_models\scriptOrg.js:119:53)
+    at ScriptOrg.setupAsync (C:\Users\Himanshu.Desai\AppData\Local\sf\node_modules\sfdmu\lib\modules\models\script_models\scriptOrg.js:52:20)
+    at Script.setupAsync (C:\Users\Himanshu.Desai\AppData\Local\sf\node_modules\sfdmu\lib\modules\models\script_models\script.js:218:30)
+    at async RunCommand.setupObjectSetAsync (C:\Users\Himanshu.Desai\AppData\Local\sf\node_modules\sfdmu\lib\modules\commands_processors\runCommand.js:71:9)
+    at async RunCommandExecutor.execute (C:\Users\Himanshu.Desai\AppData\Local\sf\node_modules\sfdmu\lib\modules\commands_processors\runCommandExecutor.js:39:17)
+    at async Run.run (C:\Users\Himanshu.Desai\AppData\Local\sf\node_modules\sfdmu\lib\commands\sfdmu\run.js:20:9)
+ [15:30:30.202] [ERROR] Execution of the command sfdmu:run has been completed. Exit code 1 (COMMAND_UNEXPECTED_ERROR).
+ [15:30:30.205] Total time elapsed: 00h 00m 07s 662ms .

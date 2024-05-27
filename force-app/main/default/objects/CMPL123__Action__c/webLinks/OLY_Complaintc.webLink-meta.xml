@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebLink xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>OLY_Complaintc</fullName>
+    <availability>online</availability>
+    <description>This button was created by TrackWise Digital to check the status of the Related List - Complaint-Action(Complaint).</description>
+    <displayType>massActionButton</displayType>
+    <encodingKey>UTF-8</encodingKey>
+    <height>600</height>
+    <linkType>url</linkType>
+    <masterLabel>New Action (Complaint)</masterLabel>
+    <openType>sidebar</openType>
+    <protected>false</protected>
+    <requireRowSelection>false</requireRowSelection>
+    <url>/apex/CMPL123__LockRecord?objectType=CMPL123__Action__c&amp;parentId={!CMPL123CME__Complaint__c.Id}&amp;relationShipName=Actions__r&amp;lookupField=OLY_Complaint__c&amp;parentRecordName={!CMPL123CME__Complaint__c.Name}&amp;isRDC=false</url>
+</WebLink>

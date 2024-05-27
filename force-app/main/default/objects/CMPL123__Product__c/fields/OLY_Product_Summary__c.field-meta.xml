@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>OLY_Product_Summary__c</fullName>
+    <externalId>false</externalId>
+    <formula>if( and(  
+isblank( OLY_Model_Number__c),
+isblank( OLY_Item_Code__c),
+isblank( OLY_Product_Description__c)), 
+&quot;_&quot;,
+
+OLY_Model_Number__c
+
+&amp; if( isblank( OLY_Item_Code__c ), &quot; | &quot; &amp; &quot;&quot;, &quot; |  &quot; &amp; OLY_Item_Code__c )
+
+&amp; if( isblank( OLY_Product_Description__c ), &quot;&quot;, &quot; (&quot; &amp; OLY_Product_Description__c &amp; &quot;)&quot;)
+
+)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Product Summary</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

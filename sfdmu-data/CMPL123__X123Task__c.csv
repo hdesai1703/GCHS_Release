@@ -1,0 +1,4 @@
+CMPL123__Allow_Partial_Processing_for_123_Tasks__c,CMPL123__Description__c,CMPL123__Is_Active__c,CMPL123__Key_Value__c,CMPL123__Related_Object__c,CMPL123__Task_External_Id__c,Id,Name
+false,,true,PTI Closure - Complaint,CMPL123CME__Complaint__c,a1N5r000001WwqiEAC,a1N7E000005WNvrUAG,Complaint PTI Closure
+true,,true,PTI Closure - Investigation,CMPL123QMS__Investigation__c,a1N5r000001WwPxEAK,a1N7E000005WNvsUAG,Investigation - PTI Closure
+true,Perform [Complete Investigation] workflow step,true,Complete Investigation,CMPL123CME__Complaint__c,a1N5r000001W2xkEAC,a1N7E000005WNvvUAG,Complaint: Complete Investigation

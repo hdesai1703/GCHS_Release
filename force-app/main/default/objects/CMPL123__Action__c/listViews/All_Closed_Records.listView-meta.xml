@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>All_Closed_Records</fullName>
+    <booleanFilter>1 OR 2</booleanFilter>
+    <columns>NAME</columns>
+    <columns>OLY_Action_ID__c</columns>
+    <columns>TWD_Department__c</columns>
+    <columns>CMPL123__Due_Date__c</columns>
+    <columns>OLY_Assigned_To__c</columns>
+    <columns>CMPL123_WF_Status__c</columns>
+    <columns>CREATEDBY_USER</columns>
+    <columns>CREATED_DATE</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>CMPL123_WF_Status__c</field>
+        <operation>equals</operation>
+        <value>Closed</value>
+    </filters>
+    <filters>
+        <field>CMPL123_WF_Status__c</field>
+        <operation>equals</operation>
+        <value>Canceled</value>
+    </filters>
+    <label>All Closed Records</label>
+</ListView>

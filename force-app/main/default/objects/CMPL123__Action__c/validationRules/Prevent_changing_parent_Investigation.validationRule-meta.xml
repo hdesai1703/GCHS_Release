@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Prevent_changing_parent_Investigation</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(
+    NOT(ISBLANK(PRIORVALUE(OLY_Investigation__c))),
+    ISCHANGED(OLY_Investigation__c)
+)</errorConditionFormula>
+    <errorDisplayField>OLY_Investigation__c</errorDisplayField>
+    <errorMessage>This record cannot be unlinked from its parent record.</errorMessage>
+</ValidationRule>

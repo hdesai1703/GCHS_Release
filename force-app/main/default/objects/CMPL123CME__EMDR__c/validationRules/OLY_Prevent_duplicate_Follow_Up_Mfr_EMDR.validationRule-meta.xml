@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>OLY_Prevent_duplicate_Follow_Up_Mfr_EMDR</fullName>
+    <active>true</active>
+    <description>This Assessment is not eligible for a new Supplemental Manufacturer EMDR.</description>
+    <errorConditionFormula>AND(
+    ISNEW(),
+    RecordType.Name = &apos;Supplemental&apos;,
+    OLY_Is_Manufacturer_Report__c,
+    NOT(ISBLANK(OLY_Assessment__c)),
+    NOT(OLY_Assessment__r.OLY_Is_Eligible_for_Follow_Up_Mfr_EMDR__c)
+)</errorConditionFormula>
+    <errorDisplayField>CMPL123CME__EMDR_Form_Version__c</errorDisplayField>
+    <errorMessage>This Assessment is not eligible for a new Supplemental Manufacturer EMDR.</errorMessage>
+</ValidationRule>

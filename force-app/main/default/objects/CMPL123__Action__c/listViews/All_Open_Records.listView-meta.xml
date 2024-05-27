@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>All_Open_Records</fullName>
+    <columns>OLY_Complaint__c</columns>
+    <columns>NAME</columns>
+    <columns>OLY_Action_ID__c</columns>
+    <columns>CMPL123__Due_Date__c</columns>
+    <columns>OLY_Assigned_To__c</columns>
+    <columns>CMPL123_WF_Status__c</columns>
+    <columns>CREATEDBY_USER</columns>
+    <columns>CREATED_DATE</columns>
+    <columns>CMPL123__Action_Taken__c</columns>
+    <columns>OLY_Patient_Impacted__c</columns>
+    <columns>OLY_Requested_Action__c</columns>
+    <columns>OLY_Submitted_By__c</columns>
+    <columns>OLY_Submitted_Date__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>CMPL123_WF_Status__c</field>
+        <operation>notEqual</operation>
+        <value>Closed</value>
+    </filters>
+    <filters>
+        <field>CMPL123_WF_Status__c</field>
+        <operation>notEqual</operation>
+        <value>Canceled</value>
+    </filters>
+    <label>All Open Records</label>
+</ListView>

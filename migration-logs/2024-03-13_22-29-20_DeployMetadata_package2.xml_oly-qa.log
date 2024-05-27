@@ -1,0 +1,104 @@
+2024-03-13 22:29:20.126 2024-03-13T22:29:20 
+2024-03-13 22:29:20.126 Eastern Standard Time 
+2024-03-13 22:29:20.126 Description: Deploy Salesforce metadata - deploy2/manifest/package2.xml 
+2024-03-13 22:29:20.126 Source: oly-dev 
+2024-03-13 22:29:20.127 Target: oly-qa 
+2024-03-13 22:29:20.127 Command: sf project deploy start --target-org oly-qa --ignore-warnings --ignore-conflicts --manifest deploy2/manifest/package2.xml 
+2024-03-13 22:29:20.127  
+2024-03-13 22:29:20.605  »   Warning: sfpowerkit is a linked ESM module and cannot be auto-transpiled. 
+2024-03-13 22:29:20.606  »   Existing compiled source will be used instead.
+2024-03-13 22:29:29.877 Warning: The SF_MDAPI_TEMP_DIR environment variable is set, which may degrade performance
+2024-03-13 22:29:30.085 Deploying v58.0 metadata to lperskii@olympus.com.qa using the v60.0 REST API.
+2024-03-13 22:29:36.240 Deploy ID: 0Af9X00000Q9XdhSAF
+2024-03-13 22:29:36.243 Status: {status} | ████████████████████████████████████████ | 0/0 Components{errorInfo}{testInfo}{trackingInfo}
+2024-03-13 22:29:38.252 Status: In Progress | ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ | 0/54 Components
+2024-03-13 22:29:40.257 Status: In Progress | ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ | 0/54 Components
+2024-03-13 22:29:42.270 Status: In Progress | ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ | 0/54 Components
+2024-03-13 22:29:44.280 Status: In Progress | ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ | 0/54 Components
+2024-03-13 22:29:46.289 Status: In Progress | ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ | 0/54 Components
+2024-03-13 22:29:48.302 Status: In Progress | ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ | 0/54 Components
+2024-03-13 22:29:50.309 Status: In Progress | ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ | 0/54 Components
+2024-03-13 22:29:52.323 Status: In Progress | █░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ | 1/54 Components
+2024-03-13 22:29:54.326 Status: In Progress | █░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ | 1/54 Components
+2024-03-13 22:29:56.332 Status: In Progress | █░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ | 1/54 Components
+2024-03-13 22:29:58.338 Status: In Progress | █░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ | 1/54 Components
+2024-03-13 22:30:00.350 Status: In Progress | █████████████░░░░░░░░░░░░░░░░░░░░░░░░░░░ | 17/54 Components
+2024-03-13 22:30:02.351 Status: In Progress | ████████████████░░░░░░░░░░░░░░░░░░░░░░░░ | 22/54 Components
+2024-03-13 22:30:04.363 Status: In Progress | █████████████████░░░░░░░░░░░░░░░░░░░░░░░ | 23/54 Components
+2024-03-13 22:30:06.374 Status: In Progress | █████████████████░░░░░░░░░░░░░░░░░░░░░░░ | 23/54 Components
+2024-03-13 22:30:08.384 Status: In Progress | ███████████████████░░░░░░░░░░░░░░░░░░░░░ | 25/54 Components
+2024-03-13 22:30:10.392 Status: In Progress | ███████████████████░░░░░░░░░░░░░░░░░░░░░ | 25/54 Components
+2024-03-13 22:30:12.400 Status: In Progress | ███████████████████░░░░░░░░░░░░░░░░░░░░░ | 25/54 Components
+2024-03-13 22:30:14.404 Status: In Progress | ███████████████████░░░░░░░░░░░░░░░░░░░░░ | 25/54 Components
+2024-03-13 22:30:16.410 Status: In Progress | ███████████████████░░░░░░░░░░░░░░░░░░░░░ | 25/54 Components
+2024-03-13 22:30:18.421 Status: In Progress | ███████████████████░░░░░░░░░░░░░░░░░░░░░ | 25/54 Components
+2024-03-13 22:30:20.433 Status: In Progress | ███████████████████░░░░░░░░░░░░░░░░░░░░░ | 25/54 Components
+2024-03-13 22:30:22.438 Status: In Progress | ███████████████████░░░░░░░░░░░░░░░░░░░░░ | 25/54 Components
+2024-03-13 22:30:24.443 Status: In Progress | ███████████████████░░░░░░░░░░░░░░░░░░░░░ | 25/54 Components
+2024-03-13 22:30:26.454 Status: In Progress | ███████████████████░░░░░░░░░░░░░░░░░░░░░ | 25/54 Components
+2024-03-13 22:30:28.467 Status: In Progress | ███████████████████░░░░░░░░░░░░░░░░░░░░░ | 25/54 Components
+2024-03-13 22:30:30.475 Status: In Progress | ███████████████████░░░░░░░░░░░░░░░░░░░░░ | 25/54 Components
+2024-03-13 22:30:32.475 Status: In Progress | ███████████████████░░░░░░░░░░░░░░░░░░░░░ | 25/54 Components
+2024-03-13 22:30:34.483 Status: In Progress | ███████████████████░░░░░░░░░░░░░░░░░░░░░ | 25/54 Components
+2024-03-13 22:30:36.499 Status: In Progress | ███████████████████░░░░░░░░░░░░░░░░░░░░░ | 25/54 Components
+2024-03-13 22:30:38.511 Status: In Progress | ███████████████████░░░░░░░░░░░░░░░░░░░░░ | 25/54 Components
+2024-03-13 22:30:40.525 Status: In Progress | ███████████████████░░░░░░░░░░░░░░░░░░░░░ | 25/54 Components
+2024-03-13 22:30:42.542 Status: In Progress | ███████████████████░░░░░░░░░░░░░░░░░░░░░ | 25/54 Components
+2024-03-13 22:30:44.552 Status: In Progress | ███████████████████░░░░░░░░░░░░░░░░░░░░░ | 25/54 Components
+2024-03-13 22:30:45.166 Status: Succeeded | ████████████████████████████████████████ | 49/49 Components
+2024-03-13 22:30:45.166 
+2024-03-13 22:30:45.170 
+2024-03-13 22:30:45.172 Deployed Source
+2024-03-13 22:30:45.173 ===================================================================================================================================================================================================================================
+2024-03-13 22:30:45.173 | State     Name                                                         Type           Path                                                                                                                                        
+2024-03-13 22:30:45.173 | ───────── ──────────────────────────────────────────────────────────── ────────────── ─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────── 
+2024-03-13 22:30:45.174 | Changed   CMPL123__Action__c.Due_Date                                  CompactLayout  deploy2\force-app\main\default\objects\CMPL123__Action__c\compactLayouts\Due_Date.compactLayout-meta.xml                                    
+2024-03-13 22:30:45.174 | Changed   CMPL123CME__Complaint__c.OLY_Product_Summary__c              CustomField    deploy2\force-app\main\default\objects\CMPL123CME__Complaint__c\fields\OLY_Product_Summary__c.field-meta.xml                                
+2024-03-13 22:30:45.174 | Created   CMPL123CME__Questionnaire__c.OLY_Current_User_ID__c          CustomField    deploy2\force-app\main\default\objects\CMPL123CME__Questionnaire__c\fields\OLY_Current_User_ID__c.field-meta.xml                            
+2024-03-13 22:30:45.175 | Changed   CMPL123__Action__c                                           CustomObject   deploy2\force-app\main\default\objects\CMPL123__Action__c\CMPL123__Action__c.object-meta.xml                                                
+2024-03-13 22:30:45.175 | Changed   CMPL123__Product__c                                          CustomObject   deploy2\force-app\main\default\objects\CMPL123__Product__c\CMPL123__Product__c.object-meta.xml                                              
+2024-03-13 22:30:45.176 | Changed   OLY_Assessment_Update_Records_asf                            Flow           deploy2\force-app\main\default\flows\OLY_Assessment_Update_Records_asf.flow-meta.xml                                                        
+2024-03-13 22:30:45.176 | Created   OLY_EMDR_Set_for_version_bsf                                 Flow           deploy2\force-app\main\default\flows\OLY_EMDR_Set_for_version_bsf.flow-meta.xml                                                             
+2024-03-13 22:30:45.177 | Changed   OLY_Country__c-Country Layout                                Layout         deploy2\force-app\main\default\layouts\OLY_Country__c-Country Layout.layout-meta.xml                                                        
+2024-03-13 22:30:45.177 | Changed   CMPL123CME__EMDR__c.CMPL123CME__All                          ListView       deploy2\force-app\main\default\objects\CMPL123CME__EMDR__c\listViews\CMPL123CME__All.listView-meta.xml                                      
+2024-03-13 22:30:45.177 | Changed   OLY_Country__c.All                                           ListView       deploy2\force-app\main\default\objects\OLY_Country__c\listViews\All.listView-meta.xml                                                       
+2024-03-13 22:30:45.177 | Unchanged OLY_Action_User                                              PermissionSet  deploy2\force-app\main\default\permissionsets\OLY_Action_User.permissionset-meta.xml                                                        
+2024-03-13 22:30:45.178 | Unchanged OLY_Action_View_Only                                         PermissionSet  deploy2\force-app\main\default\permissionsets\OLY_Action_View_Only.permissionset-meta.xml                                                   
+2024-03-13 22:30:45.178 | Changed   OLY_Assessment_Admin_Admin                                   PermissionSet  deploy2\force-app\main\default\permissionsets\OLY_Assessment_Admin_Admin.permissionset-meta.xml                                             
+2024-03-13 22:30:45.178 | Changed   OLY_Assessment_Approver_OUS                                  PermissionSet  deploy2\force-app\main\default\permissionsets\OLY_Assessment_Approver_OUS.permissionset-meta.xml                                            
+2024-03-13 22:30:45.178 | Changed   OLY_Assessment_Approver_US                                   PermissionSet  deploy2\force-app\main\default\permissionsets\OLY_Assessment_Approver_US.permissionset-meta.xml                                             
+2024-03-13 22:30:45.178 | Changed   OLY_Assessment_Creator_MSR                                   PermissionSet  deploy2\force-app\main\default\permissionsets\OLY_Assessment_Creator_MSR.permissionset-meta.xml                                             
+2024-03-13 22:30:45.178 | Changed   OLY_Assessment_Creator_OUS                                   PermissionSet  deploy2\force-app\main\default\permissionsets\OLY_Assessment_Creator_OUS.permissionset-meta.xml                                             
+2024-03-13 22:30:45.179 | Changed   OLY_Assessment_Creator_US                                    PermissionSet  deploy2\force-app\main\default\permissionsets\OLY_Assessment_Creator_US.permissionset-meta.xml                                              
+2024-03-13 22:30:45.179 | Changed   OLY_Assessment_Owner_MSR                                     PermissionSet  deploy2\force-app\main\default\permissionsets\OLY_Assessment_Owner_MSR.permissionset-meta.xml                                               
+2024-03-13 22:30:45.179 | Changed   OLY_Assessment_Owner_OUS                                     PermissionSet  deploy2\force-app\main\default\permissionsets\OLY_Assessment_Owner_OUS.permissionset-meta.xml                                               
+2024-03-13 22:30:45.179 | Changed   OLY_Assessment_Owner_US                                      PermissionSet  deploy2\force-app\main\default\permissionsets\OLY_Assessment_Owner_US.permissionset-meta.xml                                                
+2024-03-13 22:30:45.180 | Changed   OLY_Assessment_View_Only_MSR                                 PermissionSet  deploy2\force-app\main\default\permissionsets\OLY_Assessment_View_Only_MSR.permissionset-meta.xml                                           
+2024-03-13 22:30:45.180 | Changed   OLY_Assessment_View_Only_OUS                                 PermissionSet  deploy2\force-app\main\default\permissionsets\OLY_Assessment_View_Only_OUS.permissionset-meta.xml                                           
+2024-03-13 22:30:45.180 | Changed   OLY_Assessment_View_Only_US                                  PermissionSet  deploy2\force-app\main\default\permissionsets\OLY_Assessment_View_Only_US.permissionset-meta.xml                                            
+2024-03-13 22:30:45.180 | Changed   OLY_Complaint_Admin                                          PermissionSet  deploy2\force-app\main\default\permissionsets\OLY_Complaint_Admin.permissionset-meta.xml                                                    
+2024-03-13 22:30:45.180 | Unchanged OLY_Complaint_Code_Admin                                     PermissionSet  deploy2\force-app\main\default\permissionsets\OLY_Complaint_Code_Admin.permissionset-meta.xml                                               
+2024-03-13 22:30:45.181 | Unchanged OLY_Complaint_Investigator                                   PermissionSet  deploy2\force-app\main\default\permissionsets\OLY_Complaint_Investigator.permissionset-meta.xml                                             
+2024-03-13 22:30:45.181 | Unchanged OLY_Complaint_Owner                                          PermissionSet  deploy2\force-app\main\default\permissionsets\OLY_Complaint_Owner.permissionset-meta.xml                                                    
+2024-03-13 22:30:45.181 | Unchanged OLY_Complaint_View_Only                                      PermissionSet  deploy2\force-app\main\default\permissionsets\OLY_Complaint_View_Only.permissionset-meta.xml                                                
+2024-03-13 22:30:45.181 | Unchanged OLY_Country_Admin                                            PermissionSet  deploy2\force-app\main\default\permissionsets\OLY_Country_Admin.permissionset-meta.xml                                                      
+2024-03-13 22:30:45.182 | Unchanged OLY_Inquiry_Integration                                      PermissionSet  deploy2\force-app\main\default\permissionsets\OLY_Inquiry_Integration.permissionset-meta.xml                                                
+2024-03-13 22:30:45.182 | Unchanged OLY_Inquiry_User                                             PermissionSet  deploy2\force-app\main\default\permissionsets\OLY_Inquiry_User.permissionset-meta.xml                                                       
+2024-03-13 22:30:45.182 | Unchanged OLY_Inquiry_View_Only                                        PermissionSet  deploy2\force-app\main\default\permissionsets\OLY_Inquiry_View_Only.permissionset-meta.xml                                                  
+2024-03-13 22:30:45.182 | Unchanged OLY_Investigation_Creator                                    PermissionSet  deploy2\force-app\main\default\permissionsets\OLY_Investigation_Creator.permissionset-meta.xml                                              
+2024-03-13 22:30:45.182 | Unchanged OLY_Investigation_User                                       PermissionSet  deploy2\force-app\main\default\permissionsets\OLY_Investigation_User.permissionset-meta.xml                                                 
+2024-03-13 22:30:45.182 | Unchanged OLY_Investigation_View_Only                                  PermissionSet  deploy2\force-app\main\default\permissionsets\OLY_Investigation_View_Only.permissionset-meta.xml                                            
+2024-03-13 22:30:45.183 | Unchanged OLY_Product_Admin                                            PermissionSet  deploy2\force-app\main\default\permissionsets\OLY_Product_Admin.permissionset-meta.xml                                                      
+2024-03-13 22:30:45.183 | Unchanged OLY_TWD_Admin                                                PermissionSet  deploy2\force-app\main\default\permissionsets\OLY_TWD_Admin.permissionset-meta.xml                                                          
+2024-03-13 22:30:45.183 | Unchanged OLY_View_Only_for_Master_Data                                PermissionSet  deploy2\force-app\main\default\permissionsets\OLY_View_Only_for_Master_Data.permissionset-meta.xml                                          
+2024-03-13 22:30:45.183 | Changed   CMPL123CME__Complaint__c.Complaint                           RecordType     deploy2\force-app\main\default\objects\CMPL123CME__Complaint__c\recordTypes\Complaint.recordType-meta.xml                                   
+2024-03-13 22:30:45.183 | Changed   CMPL123CME__Complaint_Reports                                ReportFolder   deploy2\force-app\main\default\reports\CMPL123CME__Complaint_Reports.reportFolder-meta.xml                                                  
+2024-03-13 22:30:45.184 | Changed   CMPL123QMS__EQMS_Reports                                     ReportFolder   deploy2\force-app\main\default\reports\CMPL123QMS__EQMS_Reports.reportFolder-meta.xml                                                       
+2024-03-13 22:30:45.184 | Changed   CMPL123__Occasional_Users_Reports                            ReportFolder   deploy2\force-app\main\default\reports\CMPL123__Occasional_Users_Reports.reportFolder-meta.xml                                              
+2024-03-13 22:30:45.184 | Changed   CMPL123__X123Compliance                                      ReportFolder   deploy2\force-app\main\default\reports\CMPL123__X123Compliance.reportFolder-meta.xml                                                        
+2024-03-13 22:30:45.184 | Changed   Complaints_with_child_Assessments_and_EMDRs                  ReportType     deploy2\force-app\main\default\reportTypes\Complaints_with_child_Assessments_and_EMDRs.reportType-meta.xml                                  
+2024-03-13 22:30:45.184 | Changed   CMPL123CME__EMDR__c.OLY_Prevent_duplicate_Follow_Up_Mfr_EMDR ValidationRule deploy2\force-app\main\default\objects\CMPL123CME__EMDR__c\validationRules\OLY_Prevent_duplicate_Follow_Up_Mfr_EMDR.validationRule-meta.xml 
+2024-03-13 22:30:45.185 | Changed   CMPL123CME__EMDR__c.OLY_Prevent_duplicate_Initial_Mfr_EMDR   ValidationRule deploy2\force-app\main\default\objects\CMPL123CME__EMDR__c\validationRules\OLY_Prevent_duplicate_Initial_Mfr_EMDR.validationRule-meta.xml   
+2024-03-13 22:30:45.185 | Changed   CMPL123CME__EMDR__c.OLY_Supplemental_EMDR_CreationValidation ValidationRule deploy2\force-app\main\default\objects\CMPL123CME__EMDR__c\validationRules\OLY_Supplemental_EMDR_CreationValidation.validationRule-meta.xml 
+2024-03-13 22:30:45.185 | Changed   CMPL123QMS__Investigation__c.Prevent_Reopen_of_Investigation ValidationRule deploy2\force-app\main\default\objects\CMPL123QMS__Investigation__c\validationRules\Prevent_Reopen_of_Investigation.validationRule-meta.xml 
+2024-03-13 22:30:45.185 

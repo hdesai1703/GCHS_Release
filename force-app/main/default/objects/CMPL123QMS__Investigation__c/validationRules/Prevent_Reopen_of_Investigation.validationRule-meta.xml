@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Prevent_Reopen_of_Investigation</fullName>
+    <active>true</active>
+    <description>Only allow reopen of Investigation if parent Complaint is in the &apos;Complaint in Progress&apos;  or &apos;Open&apos; State</description>
+    <errorConditionFormula>AND(
+   ISCHANGED( CMPL123_WF_Action__c),
+   CMPL123_WF_Action__c =&quot;Reopen&quot;,
+   TWD_Complaint__r.CMPL123CME__CMPL123_WF_Status__c &lt;&gt;&quot;Complaint in Progress&quot;,
+   TWD_Complaint__r.CMPL123CME__CMPL123_WF_Status__c &lt;&gt;&quot;Open&quot;
+)</errorConditionFormula>
+    <errorMessage>Reopen can only be performed when parent Complaint is in &apos;Complaint in Progress&apos; or &apos;Open&apos; State</errorMessage>
+</ValidationRule>

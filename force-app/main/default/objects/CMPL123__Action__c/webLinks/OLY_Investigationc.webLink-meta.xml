@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebLink xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>OLY_Investigationc</fullName>
+    <availability>online</availability>
+    <description>This button was created by TrackWise Digital to check the status of the Related List - Investigation-Action(Investigation).</description>
+    <displayType>massActionButton</displayType>
+    <encodingKey>UTF-8</encodingKey>
+    <height>600</height>
+    <linkType>url</linkType>
+    <masterLabel>New Action</masterLabel>
+    <openType>sidebar</openType>
+    <protected>false</protected>
+    <requireRowSelection>false</requireRowSelection>
+    <url>/apex/CMPL123__LockRecord?objectType=CMPL123__Action__c&amp;parentId={!CMPL123QMS__Investigation__c.Id}&amp;relationShipName=Actions__r&amp;lookupField=OLY_Investigation__c&amp;parentRecordName={!CMPL123QMS__Investigation__c.Name}&amp;isRDC=true</url>
+</WebLink>

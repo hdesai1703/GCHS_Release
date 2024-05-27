@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>OLY_Product_Summary__c</fullName>
+    <externalId>false</externalId>
+    <formula>if( and( 
+isblank( CMPL123CME__Product__r.CMPL123__Product_Family__c), 
+isblank( CMPL123CME__Product__r.OLY_Model_Number__c),
+isblank( CMPL123CME__Product__r.OLY_Product_Description__c),
+isblank( CMPL123CME__Product__r.OLY_Item_Code__c)), 
+&quot;_&quot;,
+
+if( isblank( CMPL123CME__Product__r.CMPL123__Product_Family__c ), &quot;&quot;, CMPL123CME__Product__r.CMPL123__Product_Family__c &amp; &quot;: &quot;)
+
+&amp; CMPL123CME__Product__r.OLY_Model_Number__c
+
+&amp; if( isblank( CMPL123CME__Product__r.OLY_Item_Code__c ), &quot; | &quot; &amp; &quot;&quot;, &quot; |  &quot; &amp; CMPL123CME__Product__r.OLY_Item_Code__c )
+
+&amp; if( isblank( CMPL123CME__Product__r.OLY_Product_Description__c ), &quot;&quot;, &quot; (&quot; &amp; CMPL123CME__Product__r.OLY_Product_Description__c &amp; &quot;)&quot;)
+
+)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Product Summary</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

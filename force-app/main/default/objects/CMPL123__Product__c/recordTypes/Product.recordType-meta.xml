@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Product</fullName>
+    <active>true</active>
+    <label>Product</label>
+    <picklistValues>
+        <picklist>CMPL123__Therapeutica_Area__c</picklist>
+        <values>
+            <fullName>Customer Specific</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>CMPL123__Type__c</picklist>
+        <values>
+            <fullName>Active device</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Custom-made</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Implantable</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Intended to administer and%2For remove a medicinal product</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Measuring function</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Non-medical purpose</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Procedure packs</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Reusable surgical instruments</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Software</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sterile conditions</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Systems</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>OLY_Labeled_for_Single_Use__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

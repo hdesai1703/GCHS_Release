@@ -1,0 +1,22 @@
+CMPL123__Action_Custom_Label__c,CMPL123__Comment_Type__c,CMPL123__Description__c,CMPL123__E_Sign_Message_Custom_Label__c,CMPL123__Esign_Message__c,CMPL123__Generic_Comment__c,CMPL123__Is_Comment_Required__c,CMPL123__Is_ESign_Required__c,CMPL123__WF_Action_External_Id__c,Id,Name
+,Text,,,This electronic signature signifies that I submit this regulatory report and I acknowledge that this electronic signature is considered to be a legally binding equivalent of my handwritten signature.,,false,true,a1D5r000000hdpgEAA,a1D7E000005ysZIUAY,Report Submitted
+,Text,,,,,false,false,a1D5r000000hjJ9EAI,a1D7E000005ysZJUAY,Close as PTI
+,Text,,,,,false,false,a1D5r000000hqRuEAI,a1D7E000005ysZLUAY,Void Test Record
+,Text,,,,,false,false,a1D5r000000hjEqEAI,a1D7E000005ysZOUAY,PTI Closure
+,Text,,,,,true,false,qpa-common-00032,a1D7E000005ysZvUAI,Cancel
+,Text,Case is not a complaint and can be closed used in IST Pharma 3.0,,I authorized that this Case is not a complaint and is ready for closure.,,true,false,qpa-common-00040,a1D7E000005ysa3UAA,Close - Not a Complaint
+,Text,,,,,false,false,qpa-common-00042,a1D7E000005ysa5UAA,Complete
+,Text,,,I authorize that this investigation is completed.,,false,false,qpa-common-00044,a1D7E000005ysa7UAA,Complete Investigation
+,Text,,,,,true,false,qpa-common-00078,a1D7E000005ysafUAA,More Information Required
+,Text,Reopen Complaint,,,,true,false,qpa-common-00101,a1D7E000005ysb2UAA,Reopen Complaint
+,Text,,,,,true,false,qpa-common-00138,a1D7E000005ysbdUAA,Rework
+,Text,,,,,false,false,qpa-common-00159,a1D7E000005ysbyUAA,Submit
+,Text,,,,,false,false,qpa-common-00161,a1D7E000005ysc0UAA,Submit for Approval
+,Text,Submit for Review,,I authorized that Submit for Review,,false,false,qpa-common-00170,a1D7E000005ysc9UAA,Submit for Review
+,Text,State the rejection reason,,,,true,false,qpa-common-00204,a1D7E000005yschUAA,Reject
+,Text,Approve without E-sign and Comment,,,,false,false,qpa-common-00208,a1D7E000005ysclUAA,Approve
+,Text,Created Cancel Action with Comment only for Investigation Record,,,,true,false,a1D5r000000hb6jEAA,a1D7E000005yscnUAA,Cancel
+,Text,Created new Reopen Action that has a Comment only,,,,true,false,a1D5r000000hb6oEAA,a1D7E000005yscoUAA,Reopen
+,Text,Action on duplicate record,,,,false,false,a1D5r000000hUU6EAM,a1D7E000005yscqUAA,Close - Duplicate
+Admin Updates Completed,Text,Complaint Admin completion,,,,false,false,a1D5r000000hbIpEAI,a1D7E000005yscrUAA,Admin Updates Completed
+Reopen for Admin Update,Text,Complaint Admin reopen,,,,true,false,a1D5r000000hbIuEAI,a1D7E000005yscsUAA,Reopen for Admin Update

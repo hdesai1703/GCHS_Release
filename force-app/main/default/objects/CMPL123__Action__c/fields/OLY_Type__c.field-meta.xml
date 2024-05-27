@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>OLY_Type__c</fullName>
+    <externalId>false</externalId>
+    <label>Type</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>true</sorted>
+            <value>
+                <fullName>CAPA/Risk Assessment Request</fullName>
+                <default>false</default>
+                <label>CAPA/Risk Assessment Request</label>
+            </value>
+            <value>
+                <fullName>Customer Response</fullName>
+                <default>false</default>
+                <label>Customer Response</label>
+            </value>
+            <value>
+                <fullName>Decision Tree Request</fullName>
+                <default>false</default>
+                <label>Decision Tree Request</label>
+            </value>
+            <value>
+                <fullName>DHR Review Request</fullName>
+                <default>false</default>
+                <label>DHR Review Request</label>
+            </value>
+            <value>
+                <fullName>Documentation/Labeling Review</fullName>
+                <default>false</default>
+                <label>Documentation/Labeling Review</label>
+            </value>
+            <value>
+                <fullName>General Action</fullName>
+                <default>false</default>
+                <label>General Action</label>
+            </value>
+            <value>
+                <fullName>Information Request</fullName>
+                <default>false</default>
+                <label>Information Request</label>
+            </value>
+            <value>
+                <fullName>Investigation Request</fullName>
+                <default>false</default>
+                <label>Investigation Request</label>
+            </value>
+            <value>
+                <fullName>Medical Safety Assessment</fullName>
+                <default>false</default>
+                <label>Medical Safety Assessment</label>
+            </value>
+            <value>
+                <fullName>Product Return</fullName>
+                <default>false</default>
+                <label>Product Return</label>
+            </value>
+            <value>
+                <fullName>Regulatory Agency Request</fullName>
+                <default>false</default>
+                <label>Regulatory Agency Request</label>
+            </value>
+            <value>
+                <fullName>Service History Reports</fullName>
+                <default>false</default>
+                <label>Service History Reports</label>
+            </value>
+            <value>
+                <fullName>Source System Update</fullName>
+                <default>false</default>
+                <label>Source System Update</label>
+            </value>
+            <value>
+                <fullName>Supplier Request</fullName>
+                <default>false</default>
+                <label>Supplier Request</label>
+            </value>
+            <value>
+                <fullName>Training</fullName>
+                <default>false</default>
+                <label>Training</label>
+            </value>
+            <value>
+                <fullName>URGENT : Reportability Review – Investigation Completed</fullName>
+                <default>false</default>
+                <label>URGENT : Reportability Review – Investigation Completed</label>
+            </value>
+            <value>
+                <fullName>URGENT : Reportability Review – New Information Available</fullName>
+                <default>false</default>
+                <label>URGENT : Reportability Review – New Information Available</label>
+            </value>
+            <value>
+                <fullName>Warranty (Commercial Decision)</fullName>
+                <default>false</default>
+                <label>Warranty (Commercial Decision)</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

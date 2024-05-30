@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Validate_Complaint_Owner_for_RR_Action</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(
+ISCHANGED(OLY_Regulatory_Review_Action__c), 
+$Permission.Complaint_Owner
+)</errorConditionFormula>
+    <errorMessage>Complaint Owner doesn&apos;t have access to modify.</errorMessage>
+</ValidationRule>

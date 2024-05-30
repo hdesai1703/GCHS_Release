@@ -806,6 +806,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>CMPL123CME__Complaint__c.Gender__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>CMPL123CME__Complaint__c.OLYHas_submitted_Follow_Up_Importer_EMDR__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -1507,6 +1512,11 @@
     <fieldPermissions>
         <editable>true</editable>
         <field>CMPL123CME__Complaint__c.OLY_Original_Complaint__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>CMPL123CME__Complaint__c.OLY_Other_Gender__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -4622,6 +4632,16 @@
     <fieldPermissions>
         <editable>true</editable>
         <field>CMPL123CME__EMDR__c.CMPL123CME__Validate_on_Save__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>CMPL123CME__EMDR__c.EMDR_Assigned_To_Reviewer__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>CMPL123CME__EMDR__c.EMDR_Assigned_To__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -11082,6 +11102,11 @@
     <fieldPermissions>
         <editable>true</editable>
         <field>OLY_PTI__c.OLY_Investigation_Summary__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>OLY_PTI__c.OLY_Is_Active__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>

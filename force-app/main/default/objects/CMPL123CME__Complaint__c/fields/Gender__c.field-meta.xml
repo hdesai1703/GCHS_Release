@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Gender__c</fullName>
+    <externalId>false</externalId>
+    <label>Gender</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Cisgender man/boy (gender corresponds with birth sex)</fullName>
+                <default>false</default>
+                <label>Cisgender man/boy (gender corresponds with birth sex)</label>
+            </value>
+            <value>
+                <fullName>Cisgender woman/girl (gender corresponds with birth sex)</fullName>
+                <default>false</default>
+                <label>Cisgender woman/girl (gender corresponds with birth sex)</label>
+            </value>
+            <value>
+                <fullName>Transgender man/trans man/female-to-male (FTM)</fullName>
+                <default>false</default>
+                <label>Transgender man/trans man/female-to-male (FTM)</label>
+            </value>
+            <value>
+                <fullName>Transgender woman/trans woman/male-to-female (MTF)</fullName>
+                <default>false</default>
+                <label>Transgender woman/trans woman/male-to-female (MTF)</label>
+            </value>
+            <value>
+                <fullName>Other gender category</fullName>
+                <default>false</default>
+                <label>Other gender category: please specify</label>
+            </value>
+            <value>
+                <fullName>Decline to answer</fullName>
+                <default>false</default>
+                <label>Decline to answer</label>
+            </value>
+            <value>
+                <fullName>ASKU</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>ASKU</label>
+            </value>
+            <value>
+                <fullName>NA</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>NA</label>
+            </value>
+            <value>
+                <fullName>NI</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>NI</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

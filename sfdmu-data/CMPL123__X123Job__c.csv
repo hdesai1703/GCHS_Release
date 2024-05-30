@@ -1,4 +1,8 @@
 CMPL123__Child_Filter_Condition__c,CMPL123__Description__c,CMPL123__Is_Active__c,CMPL123__Job_External_Id__c,CMPL123__Job_Type__c,CMPL123__Related_Task__c,CMPL123__Related_Task__r.CMPL123__Task_External_Id__c,CMPL123__Workflow_Step__c,CMPL123__Workflow_Step__r.CMPL123__WF_Step_External_Id__c,Id,Name
-,,true,a1M5r000000sEtHEAU,Workflow Step by KeyValue,a1N7E000005WNvvUAG,a1N5r000001W2xkEAC,a1L7E000001q67iUAA,qpa-complaints-wfstep-012,a1M7E000003l4VKUAY,Complaint: Complete Investigation
-,,true,a1M5r000001tkZjEAI,Workflow Step by KeyValue,a1N7E000005WNvrUAG,a1N5r000001WwqiEAC,a1L7E000001q66xUAA,a1L5r000001PUlyEAG,a1M7E000003l4VNUAY,Close as PTI
+,,true,a1M5r000001tkV0EAI,Workflow Step by KeyValue,a1N7E000005WNvtUAG,a1N5r000001WwQ2EAK,a1L7E000001q675UAA,a1L5r000001PTkrEAG,a1M7E000003l4VGUAY,Assessment (US) - PTI Closure
+,,true,a1M5r000001tdA9EAI,Workflow Step by KeyValue,a1N7E000005WNvxUAG,a1N5r000001WegdEAC,a1L7E000001q67pUAA,a1L5r000001MIL5EAO,a1M7E000003l4VLUAY,Not Received
 ,,true,a1M5r000001tkV5EAI,Workflow Step by KeyValue,a1N7E000005WNvsUAG,a1N5r000001WwPxEAK,a1L7E000001q674UAA,a1L5r000001PTkhEAG,a1M7E000003l4VOUAY,Investigation - PTI Closure
+,,true,a1M5r000001td9pEAA,Workflow Step by KeyValue,a1N7E000005WNvwUAG,a1N5r000001WegTEAS,a1L7E000001q67UUAQ,qpa-complaints-wfstep-021,a1M7E000003l4VPUAY,Close
+,Close Complaint on Inquiry,true,a1M5r000000sF8AEAU,Workflow Step by KeyValue,a1N7E000005WNvpUAG,a1N5r000001W5m3EAC,a1L7E000001q67VUAQ,qpa-complaints-wfstep-031,a1M7E000003l4VQUAY,Close Complaint on Inquiry
+,,true,a1M5r000001tcEZEAY,Workflow Step by KeyValue,a1N7E000005WNvyUAG,a1N5r000001WeDiEAK,a1L7E000001q68KUAQ,qpa-complaints-wfstep-020,a1M7E000003l4VSUAY,EMDR: Submission Failed
+,,true,a1M5r000001thvhEAA,Workflow Step by KeyValue,a1N7E000005WNvqUAG,a1N5r000001WrNsEAK,a1L7E000001q69HUAQ,a1L5r000000wMh3EAE,a1M7E000003l4VTUAY,Regulatory Review Not Required

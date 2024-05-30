@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CMPL123CME__A3a_Sex__c</fullName>
+    <deprecated>false</deprecated>
+    <description>The sex that a person has or was assigned to at birth.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Enter the patient&apos;s sex at birth (the sex that a person has or was assigned to at birth).</inlineHelpText>
+    <label>A3a - Sex</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Male</fullName>
+                <default>false</default>
+                <label>Male</label>
+            </value>
+            <value>
+                <fullName>Female</fullName>
+                <default>false</default>
+                <label>Female</label>
+            </value>
+            <value>
+                <fullName>Undifferentiated</fullName>
+                <default>false</default>
+                <label>Undifferentiated</label>
+            </value>
+            <value>
+                <fullName>Decline to answer</fullName>
+                <default>false</default>
+                <label>Decline to answer</label>
+            </value>
+            <value>
+                <fullName>ASKU</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>ASKU</label>
+            </value>
+            <value>
+                <fullName>NA</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>NA</label>
+            </value>
+            <value>
+                <fullName>NI</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>NI</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

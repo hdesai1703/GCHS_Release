@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CMPL123CME__Supplemental</fullName>
+    <active>true</active>
+    <description>If you are a manufacturer, when you obtain information required under this part that you did not provide because it was not known or was not available when you submitted the initial report, you must submit the supplemental information to us within 1 month</description>
+    <label>Supplemental</label>
+    <picklistValues>
+        <picklist>CMPL123CME__A3a_Sex__c</picklist>
+        <values>
+            <fullName>Decline to answer</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Female</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Male</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Undifferentiated</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>CMPL123CME__A3b_Gender__c</picklist>
+        <values>
+            <fullName>Cisgender man%2Fboy %28gender corresponds with birth sex%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cisgender woman%2Fgirl %28gender corresponds with birth sex%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Decline to answer</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other gender category</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Transgender man%2Ftrans man%2Ffemale-to-male %28FTM%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Transgender woman%2Ftrans woman%2Fmale-to-female %28MTF%29</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>CMPL123CME__D8_Was_device_serviced_by_third_party__c</picklist>
+        <values>
+            <fullName>ASKU</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NI</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Unknown</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>CMPL123CME__EMDR_Form_Version__c</picklist>
+        <values>
+            <fullName>2023</fullName>
+            <default>true</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>OLY_Rejection_Reason__c</picklist>
+        <values>
+            <fullName>Incorrect Aware Date %28G3%2FF6%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Incorrect Event Description %28B5%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Incorrect Facility Selection %28D3%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Incorrect IMDRF Code</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Incorrect Manufacturer Narrative %28H10%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Incorrect PROCODE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Incorrect Product Details</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Incorrect Type of Report %28B1%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Incorrect Type of Reportable Event %28H1%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Missing Information - Critical</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

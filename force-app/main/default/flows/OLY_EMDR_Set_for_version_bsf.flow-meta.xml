@@ -10,7 +10,7 @@
             <assignToReference>$Record.CMPL123CME__EMDR_Form_Version__c</assignToReference>
             <operator>Assign</operator>
             <value>
-                <stringValue>2021 Nov-30</stringValue>
+                <stringValue>2023</stringValue>
             </value>
         </assignmentItems>
     </assignments>

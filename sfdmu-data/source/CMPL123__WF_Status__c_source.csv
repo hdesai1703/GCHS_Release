@@ -1,4 +1,5 @@
 CMPL123__Description__c,CMPL123__Status_Custom_Label__c,CMPL123__WF_Status_External_Id__c,Id,Name
+,,a1J5r000001NcBcEAK,a1J7E000004ekcIUAQ,Pending Admin Resubmission
 ,,a1J5r000001NvJyEAK,a1J7E000004ekcJUAQ,Closed - PTI
 ,,qpa-common-00016,a1J7E000004ekcZUAQ,Canceled
 ,,qpa-common-00020,a1J7E000004ekcdUAA,Closed
@@ -10,11 +11,19 @@ Product was not received.,,qpa-common-00031,a1J7E000004ekcoUAA,Closed - Not Rece
 Packed received successfully.,,qpa-common-00033,a1J7E000004ekcqUAA,Closed - Received
 ,,qpa-common-00034,a1J7E000004ekcrUAA,Closed - Rejected
 ,,qpa-common-00035,a1J7E000004ekcsUAA,Closed - Submitted
+,,qpa-common-00049,a1J7E000004ekd6UAA,In Progress
+,,qpa-common-00050,a1J7E000004ekd7UAA,In Review
 ,,qpa-common-00055,a1J7E000004ekdCUAQ,Investigation in Progress
 ,,qpa-common-00062,a1J7E000004ekdJUAQ,Open
+Opened(SQM),,qpa-common-00063,a1J7E000004ekdKUAQ,Opened
 ,,qpa-common-00066,a1J7E000004ekdNUAQ,Pending Approval
+Complaint Analysis in progress,,qpa-common-00070,a1J7E000004ekdRUAQ,Pending Complaint Closure
+,,qpa-common-00082,a1J7E000004ekddUAA,Pending Response
 Review In Progress,,qpa-common-00114,a1J7E000004eke9UAA,Review In Progress
-,,a1J5r000001N9u0EAC,a1J7E000004ekekUAA,Complaint Review
-,,a1J5r000001N9uAEAS,a1J7E000004ekelUAA,Pending Admin Update
+,,qpa-common-00116,a1J7E000004ekeBUAQ,Rework in Progress
+,,qpa-common-00124,a1J7E000004ekeJUAQ,Submission In Progress
+,,a1J5r000001NrVVEA0,a1J7E000004ekemUAA,Regulatory Review
+,,a1J5r000001NrVaEAK,a1J7E000004ekenUAA,Pending Regulatory Action
 Duplicate record status,,a1J5r000001MIj5EAG,a1J7E000004ekepUAA,Closed - Duplicate
-,,a1J5r000001N9tlEAC,a1J7E000004ekeqUAA,Complaint in Progress
+,,a1J5r000001NrVQEA0,a1J7E000004ekerUAA,Response Received
+,,a1J5r000001NirEEAS,a1J7E000004eketUAA,Submission Failed

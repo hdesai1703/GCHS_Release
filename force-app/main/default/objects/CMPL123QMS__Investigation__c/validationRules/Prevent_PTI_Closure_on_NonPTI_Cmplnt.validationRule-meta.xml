@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Prevent_PTI_Closure_on_NonPTI_Cmplnt</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(
+   NOT(OLY_Is_PTI_Eligible__c),
+   CMPL123_WF_Action__c = &apos;PTI Closure&apos; 
+)</errorConditionFormula>
+    <errorMessage>This investigation is not eligible for PTI Closure.</errorMessage>
+</ValidationRule>

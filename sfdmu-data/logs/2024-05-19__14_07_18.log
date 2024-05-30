@@ -1,0 +1,26 @@
+
+ [14:07:18.780] Execution of the command sfdmu:run has been started.
+ [14:07:18.785] newLine
+ LOADING AND VALIDATING THE EXPORT.JSON SCRIPT ...
+ [14:07:18.822] newLine
+ OBJECT SET #1 STARTED
+ [14:07:18.827] newLine
+ {
+   "Running Plugin version": "4.33.15"
+}
+ {
+   "Running Add-On API version": "1.5.0"
+}
+ [14:07:18.859] newLine
+ [14:07:18.861] Loading Core Add-On Module declarations ...
+ [14:07:18.863] 
+
+### The job is running in the SIMULATION MODE ###
+
+
+ [14:07:19.90] Connecting to the olympus-prod using SFDX sf org display ...
+ [14:07:23.839] Successfully connected to the olympus-prod.
+
+ [14:07:54.515] [ERROR] Execution of the command has aborted by the user. The action is not permitted.
+ [14:07:54.522] [ERROR] Execution of the command sfdmu:run has been completed. Exit code 5 (COMMAND_ABORTED_BY_USER).
+ [14:07:54.524] Total time elapsed: 00h 00m 35s 736ms .

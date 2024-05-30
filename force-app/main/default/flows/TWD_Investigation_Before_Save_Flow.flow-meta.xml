@@ -1,0 +1,313 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>52.0</apiVersion>
+    <assignments>
+        <name>Copy_values_from_Complaint</name>
+        <label>Copy values from Complaint</label>
+        <locationX>182</locationX>
+        <locationY>803</locationY>
+        <assignmentItems>
+            <assignToReference>$Record.OLY_Event_Description__c</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <elementReference>$Record.TWD_Complaint__r.CMPL123CME__Event_Description__c</elementReference>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>Check_if_PTI_Eligibility_and_Product_Return_status</targetReference>
+        </connector>
+    </assignments>
+    <assignments>
+        <name>Investigation_RKFV</name>
+        <label>Investigation RKFV</label>
+        <locationX>204</locationX>
+        <locationY>503</locationY>
+        <assignmentItems>
+            <assignToReference>$Record.CMPL123Rule_Key_Value__c</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <elementReference>InvestigationRecordType</elementReference>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>dec_Check_parent_record</targetReference>
+        </connector>
+    </assignments>
+    <assignments>
+        <name>Set_Investigation_Summary_based_on_PTIs</name>
+        <label>Set Investigation Summary based on PTIs</label>
+        <locationX>765</locationX>
+        <locationY>1487</locationY>
+        <assignmentItems>
+            <assignToReference>$Record.OLY_Investigation_Summary__c</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <elementReference>$Record.TWD_Complaint__r.OLY_PTI_Investigation_Summary__c</elementReference>
+            </value>
+        </assignmentItems>
+    </assignments>
+    <assignments>
+        <name>Set_TKV_PTI_Closure_Investigation</name>
+        <label>Set TKV = PTI Closure - Investigation</label>
+        <locationX>50</locationX>
+        <locationY>1019</locationY>
+        <assignmentItems>
+            <assignToReference>$Record.CMPL123Task_Key_Value__c</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <stringValue>PTI Closure - Investigation</stringValue>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>Check_PTI_Eligibility</targetReference>
+        </connector>
+    </assignments>
+    <constants>
+        <name>InvestigationRecordType</name>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>Investigation</stringValue>
+        </value>
+    </constants>
+    <decisions>
+        <name>Check_change_type</name>
+        <label>Check change type</label>
+        <locationX>897</locationX>
+        <locationY>287</locationY>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>out_Is_new_record</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>frm_IsNew</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <booleanValue>true</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Record_Type</targetReference>
+            </connector>
+            <label>Is new record</label>
+        </rules>
+        <rules>
+            <name>Is_Changed_to_PTI_True</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.OLY_Is_Changed_to_PTI__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <booleanValue>true</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <isGoTo>true</isGoTo>
+                <targetReference>Check_if_PTI_Eligibility_and_Product_Return_status</targetReference>
+            </connector>
+            <doesRequireRecordChangedToMeetCriteria>true</doesRequireRecordChangedToMeetCriteria>
+            <label>Is Changed to PTI = True</label>
+        </rules>
+        <rules>
+            <name>WF_Action_Approve</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.CMPL123_WF_Action__c</leftValueReference>
+                <operator>IsChanged</operator>
+                <rightValue>
+                    <booleanValue>true</booleanValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.CMPL123_WF_Action__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Approve</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Check_PTI_Eligibility</targetReference>
+            </connector>
+            <label>WF Action = Approve</label>
+        </rules>
+        <rules>
+            <name>WF_Action_PTI_Closure</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record__Prior.CMPL123_WF_Status__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Investigation in Progress</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.CMPL123_WF_Action__c</leftValueReference>
+                <operator>IsChanged</operator>
+                <rightValue>
+                    <booleanValue>true</booleanValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.CMPL123_WF_Action__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>PTI Closure</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <isGoTo>true</isGoTo>
+                <targetReference>Set_Investigation_Summary_based_on_PTIs</targetReference>
+            </connector>
+            <label>WF Action = PTI Closure</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>Check_if_PTI_Eligibility_and_Product_Return_status</name>
+        <label>Check if PTI Eligibility and Product Return status</label>
+        <locationX>182</locationX>
+        <locationY>911</locationY>
+        <defaultConnector>
+            <targetReference>Check_PTI_Eligibility</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>Is_PTI_Eligible_without_product_return</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.TWD_Complaint__r.OLY_Product_Return_Expected__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>No</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.TWD_Complaint__r.OLY_Is_PTI_Eligible__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <booleanValue>true</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Set_TKV_PTI_Closure_Investigation</targetReference>
+            </connector>
+            <label>Is PTI Eligible without product return</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>Check_PTI_Eligibility</name>
+        <label>Check PTI Eligibility</label>
+        <locationX>897</locationX>
+        <locationY>1379</locationY>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>Is_PTI_Eligible</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.TWD_Complaint__r.OLY_Is_PTI_Eligible__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <booleanValue>true</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Set_Investigation_Summary_based_on_PTIs</targetReference>
+            </connector>
+            <label>Is PTI Eligible</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>dec_Check_parent_record</name>
+        <label>Check parent record</label>
+        <locationX>336</locationX>
+        <locationY>695</locationY>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>out_Parent_is_Complaint</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.TWD_Complaint__c</leftValueReference>
+                <operator>IsNull</operator>
+                <rightValue>
+                    <booleanValue>false</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Copy_values_from_Complaint</targetReference>
+            </connector>
+            <label>Parent is Complaint</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>Record_Type</name>
+        <label>Record Type?</label>
+        <locationX>336</locationX>
+        <locationY>395</locationY>
+        <defaultConnector>
+            <targetReference>dec_Check_parent_record</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>Investigation</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.RecordType.DeveloperName</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Investigation</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Investigation_RKFV</targetReference>
+            </connector>
+            <label>Investigation</label>
+        </rules>
+    </decisions>
+    <environments>Default</environments>
+    <formulas>
+        <name>form_ComplaintMeetsPTI</name>
+        <dataType>Boolean</dataType>
+        <expression>NOT(OR(
+(ISPICKVAL({!$Record.TWD_Complaint__r.OLY_Customer_Letter_Required__c}, &apos;Yes&apos;) &amp;&amp; ISPICKVAL({!$Record.TWD_Complaint__r.OLY_Product_Return_Expected__c}, &apos;No&apos;)),
+{!$Record.TWD_Complaint__r.OLY_Has_Pending_DD__c} ,
+{!$Record.TWD_Complaint__r.OLY_Has_Pending_DD__c} ,
+NOT({!$Record.TWD_Complaint__r.OLY_Has_PTI_Code__c}) ,
+{!$Record.TWD_Complaint__r.OLY_Has_Non_PTI_Code__c}
+))</expression>
+    </formulas>
+    <formulas>
+        <name>frm_IsNew</name>
+        <dataType>Boolean</dataType>
+        <expression>ISNEW()</expression>
+    </formulas>
+    <interviewLabel>TWD Investigation Before Save Flow {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>Investigation Before Save Flow (TWD)</label>
+    <processMetadataValues>
+        <name>BuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>CanvasMode</name>
+        <value>
+            <stringValue>AUTO_LAYOUT_CANVAS</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>OriginBuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processType>AutoLaunchedFlow</processType>
+    <start>
+        <locationX>771</locationX>
+        <locationY>0</locationY>
+        <connector>
+            <targetReference>Check_change_type</targetReference>
+        </connector>
+        <object>CMPL123QMS__Investigation__c</object>
+        <recordTriggerType>CreateAndUpdate</recordTriggerType>
+        <triggerType>RecordBeforeSave</triggerType>
+    </start>
+    <status>Active</status>
+</Flow>

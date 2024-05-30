@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Prevent_closure_without_matching_AICodes</fullName>
+    <active>true</active>
+    <description>Parent Complaint must have AI Codes to match all AR Codes before Investigation can be closed.</description>
+    <errorConditionFormula>AND(
+    NOT(TWD_Complaint__r.OLY_Has_AI_Codes_for_All_AR_Codes__c),
+    ISCHANGED(CMPL123_WF_Status__c),
+    OR(
+       CMPL123_WF_Action__c = &apos;Approve&apos;,
+       CMPL123_WF_Action__c = &apos;PTI Closure&apos; &amp;&amp;  
+       PRIORVALUE(CMPL123_WF_Status__c) = &apos;Investigation in Progress&apos;
+      ) 
+)</errorConditionFormula>
+    <errorMessage>The parent Complaint record must have As Investigated Codes to match all As Reported Codes before the Investigation record can be closed.</errorMessage>
+</ValidationRule>

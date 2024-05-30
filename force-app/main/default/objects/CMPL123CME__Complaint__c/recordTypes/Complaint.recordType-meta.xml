@@ -3,4 +3,84 @@
     <fullName>Complaint</fullName>
     <active>true</active>
     <label>Complaint</label>
+    <picklistValues>
+        <picklist>Gender__c</picklist>
+        <values>
+            <fullName>Cisgender man%2Fboy %28gender corresponds with birth sex%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cisgender woman%2Fgirl %28gender corresponds with birth sex%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Decline to answer</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other gender category</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Transgender man%2Ftrans man%2Ffemale-to-male %28FTM%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Transgender woman%2Ftrans woman%2Fmale-to-female %28MTF%29</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>OLY_Gender__c</picklist>
+        <values>
+            <fullName>Decline to Answer</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Female</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Male</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Undifferentiated</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>OLY_Was_device_serviced_by_third_party__c</picklist>
+        <values>
+            <fullName>ASKU</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NI</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>TWD_Sex__c</picklist>
+        <values>
+            <fullName>Female</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Male</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
 </RecordType>

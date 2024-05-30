@@ -9,7 +9,7 @@
             "mockCSVData": false,
             "deleteOldData": false,
             "useCSVValuesMapping": false,
-            "query": "SELECT Id, Name, custom_true FROM CMPL123__WF_Rule__c WHERE Name in ('Complaint Workflow','Investigation Workflow','Regulatory Report Workflow')",
+            "query": "SELECT Id, Name, custom_true FROM CMPL123__WF_Rule__c WHERE Name in ('Due Diligence Workflow','eMDR Workflow','Assessment (US MDR)','Investigation Workflow','Inquiry Workflow')",
             "deleteQuery": ""
         },
         {
@@ -21,7 +21,7 @@
             "mockCSVData": false,
             "deleteOldData": false,
             "useCSVValuesMapping": false,
-            "query": "SELECT Id, custom_true FROM CMPL123__WF_Step__c Where CMPL123__WF_Rule__r.Name in ('Complaint Workflow','Investigation Workflow','Regulatory Report Workflow')",
+            "query": "SELECT Id, custom_true FROM CMPL123__WF_Step__c Where CMPL123__WF_Rule__r.Name in ('Due Diligence Workflow','eMDR Workflow','Assessment (US MDR)','Investigation Workflow','Inquiry Workflow')",
             "deleteQuery": ""
         },
         {
@@ -106,7 +106,7 @@
             "deleteOldData": true,
             "useCSVValuesMapping": false,
             "query": "SELECT Id, Name, custom_true FROM CMPL123__Valid_Child_Status__c",
-            "deleteQuery": "select id from CMPL123__Valid_Child_Status__c where CMPL123__Parent_Workflow_Step__r.CMPL123__WF_Rule__r.Name IN ('Complaint Workflow','Investigation Workflow','Regulatory Report Workflow')"
+            "deleteQuery": "select id from CMPL123__Valid_Child_Status__c where CMPL123__Parent_Workflow_Step__r.CMPL123__WF_Rule__r.Name IN ('Due Diligence Workflow','eMDR Workflow','Assessment (US MDR)','Investigation Workflow','Inquiry Workflow')"
         },
         {
             "operation": "Upsert",
@@ -166,18 +166,6 @@
             "deleteOldData": false,
             "useCSVValuesMapping": false,
             "query": "SELECT custom_true, Name FROM CMPL123__WF_Step_Extension__c",
-            "deleteQuery": ""
-        },
-        {
-            "operation": "Upsert",
-            "master": false,
-            "externalId": "CMPL123__AuditTrail_External_Id__c",
-            "mockFields": [],
-            "updateWithMockData": false,
-            "mockCSVData": false,
-            "deleteOldData": false,
-            "useCSVValuesMapping": false,
-            "query": "SELECT custom_true, Name FROM CMPL123__AuditTrail_Config__c",
             "deleteQuery": ""
         }
     ],

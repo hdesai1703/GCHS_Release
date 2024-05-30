@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Validate_Reportbl_Type_of_Reportbl_Evnt</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(
+RecordType.Name=&quot;Complaint Reportability (OUS)&quot;,
+ISPICKVAL( OLY_Reportable__c , &apos;No&apos;),
+OR(
+NOT(INCLUDES( OLY_Type_of_Reportable_Event__c, &apos;Not Reportable&apos;)),
+PICKLISTCOUNT(OLY_Type_of_Reportable_Event__c) &gt; 1
+),
+ISCHANGED(CMPL123_WF_Status__c),
+OR(
+CMPL123_WF_Status__c = &apos;In Review&apos;,
+CMPL123_WF_Status__c = &apos;Closed&apos;
+)
+)</errorConditionFormula>
+    <errorDisplayField>OLY_Type_of_Reportable_Event__c</errorDisplayField>
+    <errorMessage>Type of Reportable Event must be Not Reportable if the assessment conclusion is not reportable.</errorMessage>
+</ValidationRule>

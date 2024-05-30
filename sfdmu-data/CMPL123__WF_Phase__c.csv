@@ -1,12 +1,15 @@
 CMPL123__Description__c,CMPL123__Phase_Custom_Label__c,CMPL123__WF_Phase_External_Id__c,CMPL123__Work_Instructions__c,CMPL123__Work_Instructions_Custom_Label__c,CMPL123__Work_Instructions_HTML__c,Id,Name
-Complaint Workflow,TWD_PHASE_APPROVAL,qpa-complaints-phase-001,,TWD_WI_APPROVAL_COMPLAINT_WF,,a1G7E000002PhWTUA0,Approval
 Complaint Workflow; Inquiry Workflow,TWD_PHASE_CLOSURE,qpa-complaints-phase-002,,TWD_WI_CLOSURE_COMPLAINT_WF,,a1G7E000002PhWUUA0,Closure
-Regulatory Report Workflow; CVR Workflow; TGA Workflow; Meddev Workflow,TWD_PHASE_CLOSURE,qpa-complaints-phase-003,,TWD_WI_CLOSURE_CVR_WF,,a1G7E000002PhWVUA0,Closure
-Complaint Workflow,TWD_PHASE_IN_EVALUATION,qpa-complaints-phase-004,,TWD_WI_IN_EVALUATION_COMPLAINT_WF,,a1G7E000002PhWWUA0,In Evaluation
-Regulatory Report Workflow; CVR Workflow; TGA Workflow; Meddev Workflow,TWD_PHASE_IN_REVIEW,qpa-complaints-phase-005,,TWD_WI_IN_REVIEW_CVR_WF,,a1G7E000002PhWXUA0,In Review
-Complaint Workflow,TWD_PHASE_INITIATION,qpa-complaints-phase-007,,TWD_WI_INITIATION_COMPLAINT_WF,,a1G7E000002PhWZUA0,Initiation
-Regulatory Report Workflow; CVR Workflow,TWD_PHASE_INITIATION,qpa-complaints-phase-010,,TWD_WI_INITIATION_CVR_WF,,a1G7E000002PhWcUAK,Initiation
+Inquiry Workflow,TWD_PHASE_INITIATION,qpa-complaints-phase-006,,TWD_WI_INITIATION_INQUIRY_WF,,a1G7E000002PhWYUA0,Initiation
+Inquiry Workflow,TWD_PHASE_PENDING_COMPLAINT_CLOSURE_COMPLETE,qpa-complaints-phase-012,,TWD_WI_PCC_INQUIRY_WF,,a1G7E000002PhWeUAK,Pending Complaint Closure
 Investigation Workflow,TWD_PHASE_CLOSURE,qpa-investigation-phase-001,,TWD_WI_CLOSURE_INVESTIGATION_WF,,a1G7E000002PhWjUAK,Closure
 Investigation Workflow,TWD_PHASE_INITIATION,qpa-investigation-phase-002,,TWD_WI_INITIATION_INVESTIGATION_WF,,a1G7E000002PhWkUAK,Initiation
 Investigation Workflow,TWD_PHASE_INVESTIGATION_IN_PROGRESS,qpa-investigation-phase-003,,TWD_WI_INVESTIGATION_IN_PROGRESS_INVESTIGATION_WF,,a1G7E000002PhWlUAK,Investigation In Progress
+Assessment (OUS); Assessment (US MDR); Assessment (MSR); Due Diligence Workflow,TWD_PHASE_CLOSURE,qpa-assess-phase-001,,TWD_WI_CLOSURE_ASSESS_WF,,a1G7E000002PhWmUAK,Closure
+Assessment (OUS); Assessment (US MDR),TWD_PHASE_IN_PROGRESS,qpa-assess-phase-002,,TWD_WI_IN_PROGRESS_ASSESS_WF,,a1G7E000002PhWnUAK,In Progress
+Assessment (OUS); Assessment (MSR); Assessment (US MDR),TWD_PHASE_INITIATION,qpa-assess-phase-003,,TWD_WI_INITIATION_ASSESS_WF,,a1G7E000002PhWoUAK,Initiation
+Action Workflow; Due Diligence Workflow,TWD_PHASE_INITIATION,qpa-action-phase-004,,TWD_WI_INITIATION_ACT_WF,,a1G7E000002PhWsUAK,Initiation
+Assessment (OUS); Assessment (US MDR),,a1G5r000001oavXEAQ,,,,a1G7E000002PhX6UAK,In Review
+Due Diligence Workflow,TWD_PHASE_PENDING_REGULATORY_ACTION,a1G5r0000020P4pEAE,,TWD_WI_ACTION_PENDING_DD_WF,,a1G7E000002PhX7UAK,Action Pending
+CAPA Request Workflow; Due Diligence Workflow,TWD_PHASE_IN_REVIEW,qpa-capac-phase-002,,TWD_WI_IN_REVIEW_CAPAR_WF,,a1G7E000002PhX9UAK,In Review
 Investigation Workflow,TWD_PHASE_APPROVAL,a1G5r000001oaZ5EAI,,TWD_OLY_WI_APPROVAL_INV_WF,,a1G7E000002PhXBUA0,Approval

@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+	<types>
+		<members>CMPL123CME__Complaint__c.Gender__c</members>
+		<members>CMPL123CME__Complaint__c.OLY_Gender__c</members>
+		<members>CMPL123CME__Complaint__c.OLY_Other_Gender__c</members>
+		<members
+    >CMPL123CME__Complaint__c.OLY_Was_device_serviced_by_third_party__c</members>
+		<members>CMPL123CME__Complaint__c.TWD_Sex__c</members>
+		<members
+    >CMPL123CME__EMDR__c.CMPL123CME__D8_Was_device_serviced_by_third_party__c</members>
+		<members>CMPL123CME__EMDR__c.OLY_Rejection_Reason__c</members>
+		<members
+    >CMPL123CME__Inquiry__c.OLY_Was_device_serviced_by_third_party__c</members>
+		<members>CMPL123CME__EMDR__c.CMPL123CME__EMDR_Form_Version__c</members>
+		<members>CMPL123CME__EMDR__c.EMDR_Assigned_To__c</members>
+		<members>CMPL123CME__EMDR__c.EMDR_Assigned_To_Reviewer__c</members>
+		<members>CMPL123CME__Complaint__c.OLY_Is_Blocked_from_PTI__c</members>
+        <members>CMPL123CME__Complaint__c.zObligated_to_Report_to_USA__c</members>
+		<members>CMPL123CME__EMDR__c.CMPL123CME__A3a_Sex__c</members>
+		<members>CMPL123CME__EMDR__c.CMPL123CME__A3b_Gender__c</members>
+		<name>CustomField</name>
+	</types>
+	<types>
+		<members
+    >CMPL123CME__EMDR_Layout_Configuration.a_1_general_information_2021_nov_30</members>
+<members
+    >CMPL123CME__EMDR_Layout_Configuration.a_1_general_information_2023</members>
+<members
+    >CMPL123CME__EMDR_Layout_Configuration.a_patient_information_2021_nov_30</members>
+<members
+    >CMPL123CME__EMDR_Layout_Configuration.a_patient_information_2023</members>
+<members
+    >CMPL123CME__EMDR_Layout_Configuration.b_adverse_event_or_product_problem_2021</members>
+<members
+    >CMPL123CME__EMDR_Layout_Configuration.b_adverse_event_or_product_problem_2023</members>
+<members>CMPL123CME__EMDR_Layout_Configuration.c_suspect_products_2020</members>
+<members>CMPL123CME__EMDR_Layout_Configuration.c_suspect_products_2023</members>
+<members
+    >CMPL123CME__EMDR_Layout_Configuration.d_suspect_medical_device_2021_nov_30</members>
+<members
+    >CMPL123CME__EMDR_Layout_Configuration.d_suspect_medical_device_2023</members>
+<members>CMPL123CME__EMDR_Layout_Configuration.e_initial_reporter</members>
+<members>CMPL123CME__EMDR_Layout_Configuration.e_initial_reporter_2023</members>
+<members
+    >CMPL123CME__EMDR_Layout_Configuration.CMPL123CME__f_for_use_by_user_facility_i</members>
+<members
+    >CMPL123CME__EMDR_Layout_Configuration.f_for_use_by_user_facility_importer_2020</members>
+<members
+    >CMPL123CME__EMDR_Layout_Configuration.f_for_use_by_user_facility_importer_2023</members>
+<members
+    >CMPL123CME__EMDR_Layout_Configuration.g_all_manufacturers_2021_nov_30</members>
+<members
+    >CMPL123CME__EMDR_Layout_Configuration.g_all_manufacturers_2023</members>
+<members
+    >CMPL123CME__EMDR_Layout_Configuration.CMPL123CME__h_device_manufacturers_only</members>
+<members
+    >CMPL123CME__EMDR_Layout_Configuration.h_device_manufacturers_only_2020</members>
+<members
+    >CMPL123CME__EMDR_Layout_Configuration.h_device_manufacturers_only_2023</members>
+<members>CMPL123CME__EMDR_Layout_Configuration.oly_review_approvals</members>
+<members
+    >CMPL123CME__EMDR_Layout_Configuration.oly_review_approvals_2023</members>
+<members>CMPL123CME__EMDR_Layout_Configuration.related_emdr_rl_fs</members>
+<members>CMPL123CME__EMDR_Layout_Configuration.related_emdr_rl_fs_2023</members>
+<members>CMPL123CME__EMDR_Layout_Configuration.suplemental_emdr_rl_fs</members>
+<members
+    >CMPL123CME__EMDR_Layout_Configuration.suplemental_emdr_rl_fs_2023</members>
+<members>CMPL123CME__EMDR_Required_Field.EMDR_Required_Code_1</members>
+<members>CMPL123CME__EMDR_Required_Field.EMDR_Required_Code_2</members>
+<members>CMPL123CME__EMDR_Required_Field.EMDR_Required_Code_10</members>
+<members>CMPL123CME__EMDR_Required_Field.EMDR_Required_Code_11</members>
+<members>CMPL123CME__EMDR_Required_Field.EMDR_Required_Code_12</members>
+<members>CMPL123CME__EMDR_Required_Field.EMDR_Required_Code_13</members>
+<members>CMPL123CME__EMDR_Required_Field.EMDR_Required_Code_14</members>
+<members>CMPL123CME__EMDR_Required_Field.EMDR_Required_Code_3</members>
+<members>CMPL123CME__EMDR_Required_Field.EMDR_Required_Code_4</members>
+<members>CMPL123CME__EMDR_Required_Field.EMDR_Required_Code_5</members>
+<members>CMPL123CME__EMDR_Required_Field.EMDR_Required_Code_6</members>
+<members>CMPL123CME__EMDR_Required_Field.EMDR_Required_Code_7</members>
+<members>CMPL123CME__EMDR_Required_Field.EMDR_Required_Code_8</members>
+<members>CMPL123CME__EMDR_Required_Field.EMDR_Required_Code_9</members>
+<members
+    >CMPL123CME__EMDR_Required_Field.CMPL123CME__EMDR_Required_Fields_1</members>
+<members
+    >CMPL123CME__EMDR_Required_Field.CMPL123CME__EMDR_Required_Fields_2</members>
+<members>CMPL123CME__EMDR_Required_Field.EMDR_Required_Fields_2021_1</members>
+<members>CMPL123CME__EMDR_Required_Field.EMDR_Required_Fields_2021_2</members>
+<members>CMPL123CME__EMDR_Required_Field.EMDR_Required_Fields_2021_3</members>
+<members>CMPL123CME__EMDR_Required_Field.EMDR_Required_Fields_2021_4</members>
+<members>CMPL123CME__EMDR_Required_Field.EMDR_Required_Fields_2021_5</members>
+<members>CMPL123CME__EMDR_Required_Field.EMDR_Required_Fields_2021_6</members>
+<members>CMPL123CME__EMDR_Required_Field.EMDR_Required_Fields_2023_1</members>
+<members>CMPL123CME__EMDR_Required_Field.EMDR_Required_Fields_2023_2</members>
+		<name>CustomMetadata</name>
+	</types>
+	<types>
+		<members>Assessment_Owner_US</members>
+		<members>Complaint_Owner</members>
+		<name>CustomPermission</name>
+	</types>
+	<types>
+		<members>CMPL123CME__EMDR__c.CMPL123CME__A_1_GENERAL_INFORMATION</members>
+		<members
+    >CMPL123CME__EMDR__c.CMPL123CME__A_1_GENERAL_INFORMATION_2021_NOV_30</members>
+		<members>CMPL123CME__EMDR__c.CMPL123CME__A_1_GENERAL_INFORMATION_2023</members>
+		<members>CMPL123CME__EMDR__c.CMPL123CME__A_PATIENT_INFORMATION</members>
+		<members
+    >CMPL123CME__EMDR__c.CMPL123CME__A_PATIENT_INFORMATION_2021_NOV_30</members>
+		<members>CMPL123CME__EMDR__c.CMPL123CME__A_PATIENT_INFORMATION_2023</members>
+		<members
+    >CMPL123CME__EMDR__c.CMPL123CME__B_ADVERSE_EVENT_OR_PRODUCT_PROBLEM</members>
+		<members
+    >CMPL123CME__EMDR__c.CMPL123CME__B_ADVERSE_EVENT_OR_PRODUCT_PROBLEM_2021</members>
+		<members
+    >CMPL123CME__EMDR__c.CMPL123CME__B_ADVERSE_EVENT_OR_PRODUCT_PROBLEM_2023</members>
+		<members>CMPL123CME__EMDR__c.CMPL123CME__C_SUSPECT_PRODUCTS</members>
+		<members>CMPL123CME__EMDR__c.CMPL123CME__C_SUSPECT_PRODUCTS_2020</members>
+		<members>CMPL123CME__EMDR__c.CMPL123CME__C_SUSPECT_PRODUCTS_2023</members>
+		<members>CMPL123CME__EMDR__c.CMPL123CME__D_SUSPECT_MEDICAL_DEVICE</members>
+		<members
+    >CMPL123CME__EMDR__c.CMPL123CME__D_SUSPECT_MEDICAL_DEVICE_2021_Nov_30</members>
+		<members>CMPL123CME__EMDR__c.CMPL123CME__D_SUSPECT_MEDICAL_DEVICE_2023</members>
+		<members>CMPL123CME__EMDR__c.CMPL123CME__E_INITIAL_REPORTER</members>
+		<members>CMPL123CME__EMDR__c.CMPL123CME__E_INITIAL_REPORTER_2023</members>
+		<members
+    >CMPL123CME__EMDR__c.CMPL123CME__F_FOR_USE_BY_USER_FACILITY_IMPORTER</members>
+		<members
+    >CMPL123CME__EMDR__c.CMPL123CME__F_FOR_USE_BY_USER_FACILITY_IMPORTER_2018</members>
+		<members
+    >CMPL123CME__EMDR__c.CMPL123CME__F_FOR_USE_BY_USER_FACILITY_IMPORTER_2020</members>
+		<members
+    >CMPL123CME__EMDR__c.CMPL123CME__F_FOR_USE_BY_USER_FACILITY_IMPORTER_2023</members>
+		<members>CMPL123CME__EMDR__c.CMPL123CME__G_ALL_MANUFACTURERS</members>
+		<members
+    >CMPL123CME__EMDR__c.CMPL123CME__G_ALL_MANUFACTURERS_2021_NOV_30</members>
+		<members>CMPL123CME__EMDR__c.CMPL123CME__G_ALL_MANUFACTURERS_2023</members>
+		<members>CMPL123CME__EMDR__c.CMPL123CME__H_DEVICE_MANUFACTURERS_ONLY</members>
+		<members
+    >CMPL123CME__EMDR__c.CMPL123CME__H_DEVICE_MANUFACTURERS_ONLY_2020</members>
+		<members
+    >CMPL123CME__EMDR__c.CMPL123CME__H_DEVICE_MANUFACTURERS_ONLY_2023</members>
+		<members>CMPL123CME__EMDR__c.CMPL123CME__RELATED_EMDR_RL_FS</members>
+		<members>CMPL123CME__EMDR__c.CMPL123CME__SUPLEMENTAL_EMDR_RL_FS</members>
+		<members>CMPL123CME__EMDR__c.OLY_Review_Approvals</members>
+		<name>FieldSet</name>
+	</types>
+	<types>
+		<members>Assessment_Record_Page</members>
+		<members>Complaint_Record_Page</members>
+		<name>FlexiPage</name>
+	</types>
+	<types>
+		<members>Complaint_Autocreate_Country_Assessment</members>
+		<members>EMDR_Before_Save_Flow_TWD_23</members>
+		<members>OLY_Assessment_Before_Save_Flow</members>
+		<members>OLY_Complaint_PTI_Eligibility_bsf</members>
+		<members>OLY_EMDR_Set_for_version_bsf</members>
+		<members>OLY_Investigation_After_Save_Flow</members>
+		<members>OLY_PTI_Handler_alf</members>
+		<members>TWD_Inquiry_Before_Save_Flow</members>
+		<members>TWD_Investigation_Before_Save_Flow</members>
+		<name>Flow</name>
+	</types>
+	<types>
+		<members>CMPL123CME__Complaint__c-CMPL123CME__Complaint Layout</members>
+		<members>CMPL123CME__EMDR__c-CMPL123CME__EMDR Layout</members>
+		<members>CMPL123CME__Questions_Template__c-CMPL123CME__Questions Template Layout</members>
+		<members>CMPL123CME__Questions_Template_Item__c-CMPL123CME__Questions Template Item Layout</members>
+		<members>OLY_PTI__c-PTI Layout</members>
+		<name>Layout</name>
+	</types>
+	<types>
+		<members>OLY_Assessment_Owner_US</members>
+		<members>OLY_Complaint_Owner</members>
+		<members>OLY_PTI_Admin</members>
+	    <members>OLY_TWD_Admin</members>
+    	<members>OLY_View_Only_for_Master_Data</members>
+		<name>PermissionSet</name>
+	</types>
+	<types>
+	    <members>OLY_PTI__c</members>
+    	<name>CustomObject</name>
+  	</types>
+	<types>
+		<members>CMPL123CME__EMDR__c.CMPL123CME__Initial</members>
+		<members>CMPL123CME__EMDR__c.CMPL123CME__Supplemental</members>
+        <members>CMPL123CME__Complaint__c.Complaint</members>
+        <members>CMPL123CME__Inquiry__c.Inquiry</members>
+		<name>RecordType</name>
+	</types>
+	<types>
+		<members>CMPL123CME__Due_Diligence__c.Validate_Complaint_Owner_for_RR_Action</members>
+		<members>CMPL123CME__EMDR__c.B2_Date_of_Death_null_Required</members>
+		<members>CMPL123CME__EMDR__c.B2_Outcomes_Attributed_to_AE</members>
+		<members>CMPL123CME__EMDR__c.F4_User_Facility_Contact_Email</members>
+		<members>CMPL123CME__EMDR__c.F6_Field_Mandatory_Importer_EMDRs</members>
+		<members>CMPL123CME__EMDR__c.F7_Follow_Mandatory_Assessment_Owner_IMP</members>
+		<members>CMPL123CME__EMDR__c.F7_Report_Mandatory_Assessment_Owner_IMP</members>
+		<members>CMPL123CME__EMDR__c.G1_MFG_SITE_NAME</members>
+		<members>CMPL123CME__EMDR__c.G3_Field_Mandatory_Manufacturer_EMDRs</members>
+		<members>CMPL123CME__EMDR__c.G3_Mandatory_Assessment_Owner_MFG</members>
+		<members>CMPL123CME__EMDR__c.G6_Follow_Mandatory_Assessment_Owner_MFG</members>
+		<members>CMPL123CME__EMDR__c.G6_Report_Mandatory_Assessment_Owner_MFG</members>
+		<members>CMPL123CME__EMDR__c.H11_Mandatory_Assessment_Owner_MFG</members>
+		<members>CMPL123CME__EMDR__c.H1_Type_Of_Reportable_Event</members>
+		<members>CMPL123CME__EMDR__c.H2_Mandatory_Assessment_Owner_MFG</members>
+		<members>CMPL123QMS__Investigation__c.Prevent_PTI_Closure_on_NonPTI_Cmplnt</members>
+		<members>CMPL123QMS__Investigation__c.Prevent_closure_without_matching_AICodes</members>
+		<members>CMPL123CME__Questionnaire__c.Validate_Not_Report_Type_Reportbl_Evnt</members>
+		<members>CMPL123CME__Questionnaire__c.Validate_Reportbl_Type_of_Reportbl_Evnt</members>
+		<name>ValidationRule</name>
+	</types>		
+	<types>
+		<members>Restricted</members>
+		<name>Group</name>
+	</types>
+	<version>60.0</version>
+</Package>

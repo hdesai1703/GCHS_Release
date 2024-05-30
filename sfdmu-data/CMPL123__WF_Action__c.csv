@@ -1,22 +1,29 @@
 CMPL123__Action_Custom_Label__c,CMPL123__Comment_Type__c,CMPL123__Description__c,CMPL123__E_Sign_Message_Custom_Label__c,CMPL123__Esign_Message__c,CMPL123__Generic_Comment__c,CMPL123__Is_Comment_Required__c,CMPL123__Is_ESign_Required__c,CMPL123__WF_Action_External_Id__c,Id,Name
-,Text,,,This electronic signature signifies that I submit this regulatory report and I acknowledge that this electronic signature is considered to be a legally binding equivalent of my handwritten signature.,,false,true,a1D5r000000hdpgEAA,a1D7E000005ysZIUAY,Report Submitted
-,Text,,,,,false,false,a1D5r000000hjJ9EAI,a1D7E000005ysZJUAY,Close as PTI
-,Text,,,,,false,false,a1D5r000000hqRuEAI,a1D7E000005ysZLUAY,Void Test Record
+Reject Management Escalation,Text,,,,,true,false,a1D5r000000hheLEAQ,a1D7E000005ysZKUAY,Reject Management Escalation
+,Text,,,This electronic signature signifies that I approve this assessment and I acknowledge that this electronic signature is considered to be a legally binding equivalent of my handwritten signature.,,false,true,a1D5r000000hfq2EAA,a1D7E000005ysZNUAY,Management Escalation Approval
 ,Text,,,,,false,false,a1D5r000000hjEqEAI,a1D7E000005ysZOUAY,PTI Closure
+,Text,,,This electronic signature signifies that I approve and submit this eMDR and I acknowledge that this electronic signature is considered to be a legally binding equivalent of my handwritten signature.,,false,true,a1D5r000000hfaSEAQ,a1D7E000005ysZPUAY,Approve and Submit Report
+,Text,Approve with E-sign,,,,true,false,qpa-common-00015,a1D7E000005ysZeUAI,Approve
 ,Text,,,,,true,false,qpa-common-00032,a1D7E000005ysZvUAI,Cancel
+,Text,,,,,false,false,qpa-common-00038,a1D7E000005ysa1UAA,Close
 ,Text,Case is not a complaint and can be closed used in IST Pharma 3.0,,I authorized that this Case is not a complaint and is ready for closure.,,true,false,qpa-common-00040,a1D7E000005ysa3UAA,Close - Not a Complaint
 ,Text,,,,,false,false,qpa-common-00042,a1D7E000005ysa5UAA,Complete
-,Text,,,I authorize that this investigation is completed.,,false,false,qpa-common-00044,a1D7E000005ysa7UAA,Complete Investigation
-,Text,,,,,true,false,qpa-common-00078,a1D7E000005ysafUAA,More Information Required
-,Text,Reopen Complaint,,,,true,false,qpa-common-00101,a1D7E000005ysb2UAA,Reopen Complaint
+,Text,Case is categorized as a complaint used in IST Pharma 3.0,,I authorized that this case is a complaint and has been escalated.,,false,false,qpa-common-00055,a1D7E000005ysaIUAQ,Escalate to Complaint
+,Text,,,,,false,false,qpa-common-00080,a1D7E000005ysahUAA,Not Received
+,Text,Re-open Inquiry (used in IST Pharma-Meddev 3.5),,,,true,false,qpa-common-00124,a1D7E000005ysbPUAQ,Reopen Inquiry
 ,Text,,,,,true,false,qpa-common-00138,a1D7E000005ysbdUAA,Rework
+,Text,,,,,false,false,qpa-common-00139,a1D7E000005ysbeUAA,Rework Complete
+,Text,,,,,false,false,qpa-common-00158,a1D7E000005ysbxUAA,Submission Failed
 ,Text,,,,,false,false,qpa-common-00159,a1D7E000005ysbyUAA,Submit
-,Text,,,,,false,false,qpa-common-00161,a1D7E000005ysc0UAA,Submit for Approval
-,Text,Submit for Review,,I authorized that Submit for Review,,false,false,qpa-common-00170,a1D7E000005ysc9UAA,Submit for Review
+,Text,Approve with Comment,,,,true,false,qpa-common-00193,a1D7E000005yscWUAQ,Approve
 ,Text,State the rejection reason,,,,true,false,qpa-common-00204,a1D7E000005yschUAA,Reject
 ,Text,Approve without E-sign and Comment,,,,false,false,qpa-common-00208,a1D7E000005ysclUAA,Approve
 ,Text,Created Cancel Action with Comment only for Investigation Record,,,,true,false,a1D5r000000hb6jEAA,a1D7E000005yscnUAA,Cancel
 ,Text,Created new Reopen Action that has a Comment only,,,,true,false,a1D5r000000hb6oEAA,a1D7E000005yscoUAA,Reopen
 ,Text,Action on duplicate record,,,,false,false,a1D5r000000hUU6EAM,a1D7E000005yscqUAA,Close - Duplicate
-Admin Updates Completed,Text,Complaint Admin completion,,,,false,false,a1D5r000000hbIpEAI,a1D7E000005yscrUAA,Admin Updates Completed
 Reopen for Admin Update,Text,Complaint Admin reopen,,,,true,false,a1D5r000000hbIuEAI,a1D7E000005yscsUAA,Reopen for Admin Update
+,Text,,,,,false,false,a1D5r000000hih9EAA,a1D7E000005ysctUAA,Regulatory Action Required
+,Text,,,,,false,false,a1D5r000000hfaXEAQ,a1D7E000005yscuUAA,Resubmit
+,Text,,,,,false,false,a1D5r000000hih4EAA,a1D7E000005yscvUAA,Regulatory Review Required
+,Text,,,,,false,false,a1D5r000000higzEAA,a1D7E000005yscwUAA,Response Received
+,Text,,,,,false,false,a1D5r000000hihOEAQ,a1D7E000005yscxUAA,Regulatory Review Not Required

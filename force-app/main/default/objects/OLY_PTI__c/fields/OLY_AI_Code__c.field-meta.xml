@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>OLY_AI_Code__c</fullName>
+    <externalId>false</externalId>
+    <formula>OLY_A_Device_Problem_Code__r.Name &amp;&quot; | &quot;&amp;
+OLY_G_Device_Component_Code__r.Name &amp;&quot; | &quot;&amp;
+OLY_C_Investigation_Finding_Code__r.Name &amp;&quot; | &quot;&amp;
+OLY_D_Investigation_Conclusion_Code__r.Name</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>AI Code</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

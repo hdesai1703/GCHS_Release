@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>OLY_C_Investigation_Finding_Code__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <externalId>false</externalId>
+    <label>C - Investigation Finding Code</label>
+    <lookupFilter>
+        <active>true</active>
+        <filterItems>
+            <field>CMPL123CME__Complaint_Code__c.CMPL123CME__Type__c</field>
+            <operation>equals</operation>
+            <value>EVAL RESULT CODE</value>
+        </filterItems>
+        <isOptional>true</isOptional>
+    </lookupFilter>
+    <referenceTo>CMPL123CME__Complaint_Code__c</referenceTo>
+    <relationshipLabel>PTIs (C - Investigation Finding Code)</relationshipLabel>
+    <relationshipName>PTIs2</relationshipName>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

@@ -1102,6 +1102,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
+        <field>OLY_PTI__c.OLY_Is_Active__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
         <field>OLY_PTI__c.OLY_Non_Reportability_Justification__c</field>
         <readable>true</readable>
     </fieldPermissions>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>As_Inv_type_requires_Investigation_data</fullName>
+    <active>true</active>
+    <errorConditionFormula>ISPICKVAL(OLY_Type__c, &apos;As Investigated&apos;) &amp;&amp;
+OR(
+    ISBLANK(OLY_Investigation_Summary_Code__c),
+    ISBLANK(OLY_C_Investigation_Finding_Code__c) &amp;&amp; ISBLANK(OLY_D_Investigation_Conclusion__c)
+)</errorConditionFormula>
+    <errorMessage>Investigation Summary and C/D codes are required if Type is As Investigated</errorMessage>
+</ValidationRule>
